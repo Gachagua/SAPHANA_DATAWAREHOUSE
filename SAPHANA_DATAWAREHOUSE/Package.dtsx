@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="2/27/2024 4:30:23 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="UZITO-PC"
+  DTS:CreatorName="uzito-pc\workhorse"
+  DTS:DTSID="{C42F2B2F-C696-4741-B582-4A59F855C7EF}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.948.0"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{B84DE04E-DC50-407D-8A43-E3FFE25C06AE}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>
