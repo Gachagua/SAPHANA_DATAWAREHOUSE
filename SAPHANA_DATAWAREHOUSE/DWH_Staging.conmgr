@@ -10,7 +10,9 @@
       DTS:ConnectionString="Data Source=mtama.oneacrefund.org,6543;User ID=BOSSIS0001;Initial Catalog=OAF_SAP_DATAWAREHOUSE_Staging;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-SAPHANA_DATAWAREHOUSE-{82416E09-B942-4133-8DC4-0B7632E7F7A4}mtama.oneacrefund.org,6543.OAF_SAP_DATAWAREHOUSE_Staging.BOSS;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7A9h3DKy00W/geSfcSDrAwAAAAACAAAAAAAQZgAAAAEAACAAAABVuEWJiqBV1JXHPK6Y1Pq9wdhZDELM/93k8+ZX+NcpqAAAAAAOgAAAAAIAACAAAACzvhCZwbCEPskfXX+Mc/skuqG0MlRYCB4ykWt1HK+9joAAAADUg4eHSYaDnrWUqr0lYF8x/tjxO94kYWoSlCFqugYE9JBfcUDbqJk8FtKHVIFJLu5PZp6Po9JOHAeFzcN9HJnl3lvWziQO1o0YKiPVa0Igyqjm4cd6kxYCZJoPi5Ruo4XJNJfDrj3hPTO/KlswNvIi5JV8RvkoHpHwtohrdYJUG0AAAAALWZJJGAlCQy3M02hOFLT0Uamr3p0FK3ygZdixiu2GdvkxRcYOMTsOqpPHNN1XZDXA0lLhaEmkp/mgIYJTQ4II</DTS:Password>
+        Sensitive="1"
+        p4:Salt="QXTYbLgLhg=="
+        p4:IV="/Vmc6/Tp+d0=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">/L900heDBhNsInfh+uISNcL+f0mZZ2BJGxliqUCDc9wtq88a7LKAOkhCFWSaI+AyIji1kytQV4pkfm2NROtwrKwoyjvFfgc2xN8wN1zWkXgqOv4AK5bAy7DGAnas/e65YgbfY8pb/7yq+v02dtpx63k5RoRG1EuSMeIea1Rwkk8=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

@@ -12,11 +12,11 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithPassword" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{ef536ec7-a780-4e28-af2d-db8c670c35f2}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">SAPHANA_DATAWAREHOUSE</SSIS:Property>
-          <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMajor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionComments">
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">UZITO-PC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7A9h3DKy00W/geSfcSDrAwAAAAACAAAAAAAQZgAAAAEAACAAAAC0SjDnJPzKdROrnJkRiWeFmyR1bSmQ50NV3P/bQl4tgwAAAAAOgAAAAAIAACAAAAA5ywWFeai8BNuj8QpaJJTDPH3AtQjfs1M0X5f+nw6TmJAAAAAbBoXEl0UsieuPWcj9FwyYmsB3DQEwYV0x/fW1UnQodBGKwdEtE56q7ygVWpy0oJ/4ZsP/2hf1cp2UIy2FvmXd0472Et3Xj0v/fk7Kfst842NH1Ns7j2fMlqSe4C7XWvf+xVK/fwm/wTFS8zVhcfysdPfVHNkbv6aAFmuMCKM7rN3xi8Z+4+T9C5FFxjXklfxAAAAACDDds9WRRCICkvYV6hkUyorij2zU5SAQfC66bDuCYXLF9HMkSDGPHqHEFr+voHEiN38CvJ7dZbcQM6Y/9LDDxw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="p6jUwlZzkA==" SSIS:IV="7cRmz28rWIA=">os33016tqqa5LNihFOWbYKWaQ/KjYSPtAro1nerKK5ahLOInKrssqeVOPwNh/Sfu5LazrWOrNX8zshypmq01koh2xqo/EVm92uzhHvklRKGZxJotRtkxHzLSup000grSvUM11zLMrLMxJenu8VhoWe+xoXLQwT5h9aLtF9QB0cmIxeL+B31c5A==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -64,7 +64,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">uid=DWAREHOUSE;Dsn=SAP HANA 32;servernode={saphana02.oneacrefund.org:30015};database=SBK_OAF_ACC_RW;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">uid=DWAREHOUSE;Dsn=SAP HANA 32;servernode={saphana02.oneacrefund.org:30015};</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -297,14 +297,14 @@
                 <SSIS:Property SSIS:Name="Name">OJDT_HANA</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">14</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{9FB54F3B-676C-4D82-9E3B-4548416031CB}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{F5626DA9-B583-4AD6-990C-CDF97C0C416F}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters />
             </SSIS:PackageMetaData>

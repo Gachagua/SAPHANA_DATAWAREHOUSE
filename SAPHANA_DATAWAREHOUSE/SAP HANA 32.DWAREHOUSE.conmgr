@@ -8,7 +8,9 @@
       DTS:ConnectionString="uid=DWAREHOUSE;Dsn=SAP HANA 32;servernode={saphana02.oneacrefund.org:30015};">
       <DTS:Password
         DTS:Name="pwd"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAR0Zfvb064UOxaJ6fj8e+KQAAAAACAAAAAAAQZgAAAAEAACAAAADDeoUz3dMetMK95Plri8FWYwQK5bLbhYA+QPKOrFppfgAAAAAOgAAAAAIAACAAAAAyUb8jrd4vME+uo6/oCyKNTVQwyHN29I/2zaQ5ASOUfIAAAADr+MX1Uxwxw1853VmFjKglt2WSVa/seaPu/GMf3+jW14KShsh7AV7jMyHCR4vAxbvZTDKbDhEyMs9nyYekpcUrBSy7py/i6uFi/lTp7hs3RVpVpo71G4mZCucwvsTk11He03MHRxLLY640ZQefurWYwWznvHenPTvngOvwO1viGEAAAAAFL0tLVy7Vjld+gM837PdFTndL40WKRoZ+AZpmXz3ojKNvVdc7lfp9p61DminQ/xogroImstUhCm3HMfiiW9+g</DTS:Password>
+        Sensitive="1"
+        p4:Salt="ycGzmnlT0A=="
+        p4:IV="cIwxBTAOEuI=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">yiNJYWnYgfVgNHQfzP4CEUl++RxnpLmYXaRGEIysGmjZ0BV+wsZacWche6tgnl0Cegks89bBvSGtj7npidt7kbNlMXHtmMGSTItroiQGfOzn5WonnBPYUPPcjFj+nkKkxncAm65+J3ZmRPeePFByJm8MPOQuDUre1FoPVpVNEXs=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
