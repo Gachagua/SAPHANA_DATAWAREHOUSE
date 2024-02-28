@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="SAP HANA 32.DWAREHOUSE"
+  DTS:DTSID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}"
+  DTS:CreationName="ODBC">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="uid=DWAREHOUSE;Dsn=SAP HANA 32;servernode={saphana02.oneacrefund.org:30015};database=SBK_OAF_ACC_RW;">
+      <DTS:Password
+        DTS:Name="pwd"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZxrbeNevEUu8wJ3q8jlaaAAAAAACAAAAAAAQZgAAAAEAACAAAABmPaQd6kNq+4DDik2YNbOi5Keo7HPYywsyNr/XKs9FbgAAAAAOgAAAAAIAACAAAAA2gpirpaYkq1Jc3PFJiVXiodW3GiP+SyI7O9kmDgQ36oAAAAB4RTkj7aOtSGmpCT/mj6Q/0H2ft4VaC3m6zF7BNBKTk396TLD42tqpBHASjmuiWqo6Aqac0l1p9o4lZpkk/bvDUQQn3T8av5qDeqBy1sTEGjabNvx+7nxwZEeVMh1HRz4OIaY2xIhYwjZbFmhbwzsEe8Y7AJWofbVo9IJhkRRCtUAAAAC0Sj9D0sT7Mfk9GUSShB2Ziuzwc/YZ6zp9JcJ83IlnCS9+f9g+XRhtelFC/b8Kxs/vfdAkz4CqHW9P+hXK2YJ7</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
