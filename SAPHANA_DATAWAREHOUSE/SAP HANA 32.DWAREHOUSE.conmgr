@@ -1,14 +1,14 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="SAP HANA 32.DWAREHOUSE"
   DTS:DTSID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}"
   DTS:CreationName="ODBC">
   <DTS:ObjectData>
     <DTS:ConnectionManager
-      DTS:ConnectionString="uid=DWAREHOUSE;Dsn=SAP HANA 32;servernode={saphana02.oneacrefund.org:30015};database=SBK_OAF_ACC_RW;">
+      DTS:ConnectionString="uid=DWAREHOUSE;Dsn=SAP HANA 32;servernode={saphana02.oneacrefund.org:30015};">
       <DTS:Password
         DTS:Name="pwd"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZxrbeNevEUu8wJ3q8jlaaAAAAAACAAAAAAAQZgAAAAEAACAAAABmPaQd6kNq+4DDik2YNbOi5Keo7HPYywsyNr/XKs9FbgAAAAAOgAAAAAIAACAAAAA2gpirpaYkq1Jc3PFJiVXiodW3GiP+SyI7O9kmDgQ36oAAAAB4RTkj7aOtSGmpCT/mj6Q/0H2ft4VaC3m6zF7BNBKTk396TLD42tqpBHASjmuiWqo6Aqac0l1p9o4lZpkk/bvDUQQn3T8av5qDeqBy1sTEGjabNvx+7nxwZEeVMh1HRz4OIaY2xIhYwjZbFmhbwzsEe8Y7AJWofbVo9IJhkRRCtUAAAAC0Sj9D0sT7Mfk9GUSShB2Ziuzwc/YZ6zp9JcJ83IlnCS9+f9g+XRhtelFC/b8Kxs/vfdAkz4CqHW9P+hXK2YJ7</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAR0Zfvb064UOxaJ6fj8e+KQAAAAACAAAAAAAQZgAAAAEAACAAAADDeoUz3dMetMK95Plri8FWYwQK5bLbhYA+QPKOrFppfgAAAAAOgAAAAAIAACAAAAAyUb8jrd4vME+uo6/oCyKNTVQwyHN29I/2zaQ5ASOUfIAAAADr+MX1Uxwxw1853VmFjKglt2WSVa/seaPu/GMf3+jW14KShsh7AV7jMyHCR4vAxbvZTDKbDhEyMs9nyYekpcUrBSy7py/i6uFi/lTp7hs3RVpVpo71G4mZCucwvsTk11He03MHRxLLY640ZQefurWYwWznvHenPTvngOvwO1viGEAAAAAFL0tLVy7Vjld+gM837PdFTndL40WKRoZ+AZpmXz3ojKNvVdc7lfp9p61DminQ/xogroImstUhCm3HMfiiW9+g</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

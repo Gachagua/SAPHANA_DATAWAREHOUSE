@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="DWH_Staging"
   DTS:DTSID="{82416E09-B942-4133-8DC4-0B7632E7F7A4}"
@@ -10,7 +10,7 @@
       DTS:ConnectionString="Data Source=mtama.oneacrefund.org,6543;User ID=BOSSIS0001;Initial Catalog=OAF_SAP_DATAWAREHOUSE_Staging;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-SAPHANA_DATAWAREHOUSE-{82416E09-B942-4133-8DC4-0B7632E7F7A4}mtama.oneacrefund.org,6543.OAF_SAP_DATAWAREHOUSE_Staging.BOSS;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZxrbeNevEUu8wJ3q8jlaaAAAAAACAAAAAAAQZgAAAAEAACAAAABcsDOUjuc0jevqY8hf5nrSmgQbJ5PzhTA7qW+6H8CONgAAAAAOgAAAAAIAACAAAAD3C+NEzfyKOqXvNQx3XvGrGoV9mz3s0kET1tqXlajM2YAAAABwNzNRRe1s3ijB1hJrTLkiBdVErQTOR020Mhwr/MvMNF3jcPh/jzWtYZTFNaQbzwVAhP5h2VQYTTCCHhCYrQr9cdvKQ8I0mU/UMDDiqKYi+CNbY8WBYJ0/xjJra+SP+QXz47CWKgwE00g0Ipp/AX1Jk7+2+DP26yWVKLz+p3aCAEAAAABshucypQY79t7emJ/LbPfR7KhQZt0HuQHkTIqzHUOKutxuoT2MIg8NhzcYPcFGraA8fAL6M8dc+Y7ukxS/eTfm</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7A9h3DKy00W/geSfcSDrAwAAAAACAAAAAAAQZgAAAAEAACAAAABVuEWJiqBV1JXHPK6Y1Pq9wdhZDELM/93k8+ZX+NcpqAAAAAAOgAAAAAIAACAAAACzvhCZwbCEPskfXX+Mc/skuqG0MlRYCB4ykWt1HK+9joAAAADUg4eHSYaDnrWUqr0lYF8x/tjxO94kYWoSlCFqugYE9JBfcUDbqJk8FtKHVIFJLu5PZp6Po9JOHAeFzcN9HJnl3lvWziQO1o0YKiPVa0Igyqjm4cd6kxYCZJoPi5Ruo4XJNJfDrj3hPTO/KlswNvIi5JV8RvkoHpHwtohrdYJUG0AAAAALWZJJGAlCQy3M02hOFLT0Uamr3p0FK3ygZdixiu2GdvkxRcYOMTsOqpPHNN1XZDXA0lLhaEmkp/mgIYJTQ4II</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
