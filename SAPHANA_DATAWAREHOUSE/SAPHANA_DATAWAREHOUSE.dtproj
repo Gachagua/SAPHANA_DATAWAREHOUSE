@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">UZITO-PC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="AGS4gN37dA==" SSIS:IV="zsgR1sR5Psg=">Ek2DeNM/a5FzW/2yTqoPE+Qe8d9J/cIUUi/EZw2ZPdAhsO7slNNGKH3YT/mF0sAqQrf+OolAltCYriQrEDtkT/4tDiap9fPq2WB98WvKxUFIzwqm+zuCrEKvnQkMHLEW5WHo4hDA1MLF8nbdmO7EFKAPKpoeB1W3Vl0jTFyVu/TzWuGPM0GeYg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="v5FlSSLy1A==" SSIS:IV="J1bWxDdcJX4=">Ftpq2H87Zjglf7AXdR/VEB0D2EILdUT1oJjf6hPEtOoZVvKz8FU6mQoZ402W/8Xyf17cz46jdiyZPMCKC1QbSAKrMgD1WnMet1XADEwna2LQanf2/MkB631MF72gCCl7/Sg8xa8VzeHBDYTavBJ5t8p1AX+kLpkOpE1ZujtOqri0wZPmHXqshg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -335,14 +335,14 @@
                 <SSIS:Property SSIS:Name="Name">Item_load_HANA</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">31</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">52</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{EF3A885E-C232-4021-9942-01DA5D776141}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{54E0DE2B-309F-4D00-9F0A-348DE55A833E}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters />
             </SSIS:PackageMetaData>
