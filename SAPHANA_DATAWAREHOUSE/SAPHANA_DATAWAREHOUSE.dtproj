@@ -12,7 +12,7 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithPassword" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{ef536ec7-a780-4e28-af2d-db8c670c35f2}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">SAPHANA_DATAWAREHOUSE</SSIS:Property>
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">UZITO-PC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZ4SLFNWSiESVb24f+zfldwAAAAACAAAAAAAQZgAAAAEAACAAAAA1bANeEfiH/reIytdPvToXZAQPr4+hm9T3r4aet7WiGwAAAAAOgAAAAAIAACAAAADJCefSEpdhCVPwrDpQCka2RF72R1ZZ1CqwL9hbL8WSzJAAAACmauOdKPWk+okRG8WFEVBl+ADj3P8G62IyNVUdmU2ZtixAzdrWjOz3TrqbkMscrQe/nHG46LWTdraY4Pt9cD6B+kxxbXN94dqWFmL8KTRoM6hwV7vXTyYVrcQqQ7RzcMEJ4YSADU4L2R0h1kBi7wttNjODdmNMOmPks4G7TOF+mfLSFKG61xSS8wj5GkmDRXpAAAAAMZ/f5oTwRQ2NlBERZMiQsxZ9XFz/3vwk7w0dtoS/KDq4i/K2TxUXxmG9f2AJwtt/hzp4cpMD5z2zF3wz85/EaQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="AGS4gN37dA==" SSIS:IV="zsgR1sR5Psg=">Ek2DeNM/a5FzW/2yTqoPE+Qe8d9J/cIUUi/EZw2ZPdAhsO7slNNGKH3YT/mF0sAqQrf+OolAltCYriQrEDtkT/4tDiap9fPq2WB98WvKxUFIzwqm+zuCrEKvnQkMHLEW5WHo4hDA1MLF8nbdmO7EFKAPKpoeB1W3Vl0jTFyVu/TzWuGPM0GeYg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -301,14 +301,14 @@
                 <SSIS:Property SSIS:Name="Name">OJDT_HANA</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">16</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">17</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{4C3C7121-4229-45DA-87F0-D6505FB9511A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{63A28614-707D-4799-BF8A-62BE0614153E}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters />
             </SSIS:PackageMetaData>
@@ -318,14 +318,14 @@
                 <SSIS:Property SSIS:Name="Name">JDT1_HANA</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">10</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">11</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{0178D927-0253-4FFE-BDAB-A4F451C4D93F}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{BB0F9C7F-C722-4036-9EFD-625FB30EF70F}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters />
             </SSIS:PackageMetaData>
@@ -352,14 +352,14 @@
                 <SSIS:Property SSIS:Name="Name">dimensions_HANA</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">10</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{72156C4A-DCAF-4869-A4A7-FB4BB4D4B349}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{5B919E6C-73C7-43AB-9716-0C0192C6E7CE}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters />
             </SSIS:PackageMetaData>
@@ -369,14 +369,14 @@
                 <SSIS:Property SSIS:Name="Name">Templates</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">4</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{26F535CC-1A83-494D-8724-ABF8675965B8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{9FFAF82F-FDFF-4CAE-9B42-EDEFE4C5D825}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters />
             </SSIS:PackageMetaData>
