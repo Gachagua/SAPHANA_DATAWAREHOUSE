@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">UZITO-PC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="PfPq6HQWOjw=" SSIS:IV="p3uUkzaB/UbAfUtv6jhDSg==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">gVtkAG5OsZUvFbJtsbctnnWd5CZ1MOfwbsSA70rOxwiJhdI1CNym2k42mbHJLb1rTo24UHb35XZBa3EF3EpXQ0aa2rVsnVRyuJ9/lSv3m8hemf6sZTPVf63BVlMDzYVK0e7Hbk2Icn2NzGSsZ1YvIdeX+Sz3ZDTtDBd5j65SfvUeiMhZkSSjes7Uf+ilaklD</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="PmtYQ+/hHBQ=" SSIS:IV="lC0oEIE4EwGPyfYlBs77YA==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">zr6Zsz4DsQ6roYs0xHolHhZqVXFomR3bdtSWSnYN/EOmzxzMGmNQARkRv4FHmmKr7hfzcetjeJxH68IyS0FxdwcCCmHLSdtOK0dGFlWeoexxXduWICLPHHovekVHM/Z3SsHGe0wBkXxePJqU8TEIsFUWQ66wqsFpYBBVrHHvjTahmj1HVsPdE2dCs+NVZTDI</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -36,7 +36,10 @@
           <SSIS:Package SSIS:Name="dimensions_HANA.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Templates.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Vendors_HANA.dtsx" SSIS:EntryPoint="1" />
-          <SSIS:Package SSIS:Name="Item_Load (1).dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Item_Load_deprecated.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="00_01_BusinessPartners (1).dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="00_BusinessPartners.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="GroupDB_Loads (1).dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="SAP HANA 32.DWAREHOUSE.conmgr" />
@@ -637,10 +640,10 @@
                 <SSIS:Property SSIS:Name="Name">Item_load_HANA</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">57</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">72</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{674FAD4C-8EEA-498D-AA37-099A70B56D5B}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{02227821-3F24-4250-B60B-E954137524D4}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -699,16 +702,67 @@
               </SSIS:Properties>
               <SSIS:Parameters />
             </SSIS:PackageMetaData>
-            <SSIS:PackageMetaData SSIS:Name="Item_Load (1).dtsx">
+            <SSIS:PackageMetaData SSIS:Name="Item_Load_deprecated.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{779CA820-E7A7-4978-8167-828F73A08575}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Item_Load</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{F42C23C1-CC26-4FFE-A241-AC8F0BB53994}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Item_Load_deprecated</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">510</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">512</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{EF32AAAE-F018-4487-B30F-5A0ACD5E2ED0}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{99A25EAD-D551-4364-8DA2-07DE4D0DE13D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="00_01_BusinessPartners (1).dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{518EDDEF-3BCF-4A31-A930-C2F2FE01A881}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">00_01_BusinessPartners</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">222</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{C1B2AA13-2653-425F-B636-CBE5D0B55A5B}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="00_BusinessPartners.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{6E6A6312-6144-4150-A441-773D0AE9538B}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">00_BusinessPartners</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{7D50237F-9E30-44EA-A333-72F3C27BFA17}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="GroupDB_Loads (1).dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{E02BD881-65D6-4D61-85D8-249862267313}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">GroupDB_Loads</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">52</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{9F04C79A-B78A-4CEC-ACCC-4BC2BD90012E}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
