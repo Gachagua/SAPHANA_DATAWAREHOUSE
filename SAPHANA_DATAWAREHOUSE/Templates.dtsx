@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="3/1/2024 12:40:17 PM"
@@ -13,7 +13,7 @@
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
   DTS:VersionBuild="4"
-  DTS:VersionGUID="{9FFAF82F-FDFF-4CAE-9B42-EDEFE4C5D825}">
+  DTS:VersionGUID="{974A2A26-ECF9-403F-B231-5577DE8A32B2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -134,7 +134,7 @@
               description="ODBC Source"
               name="Burundi"
               usesDispositions="true"
-              version="6">
+              version="7">
               <properties>
                 <property
                   dataType="System.String"
@@ -333,7 +333,7 @@
               description="ODBC Source"
               name="Ethiopia"
               usesDispositions="true"
-              version="6">
+              version="7">
               <properties>
                 <property
                   dataType="System.String"
@@ -532,7 +532,7 @@
               description="ODBC Source"
               name="Kenya"
               usesDispositions="true"
-              version="6">
+              version="7">
               <properties>
                 <property
                   dataType="System.String"
@@ -635,7 +635,7 @@
               description="ODBC Source"
               name="Malawi"
               usesDispositions="true"
-              version="6">
+              version="7">
               <properties>
                 <property
                   dataType="System.String"
@@ -930,7 +930,7 @@
               description="ODBC Source"
               name="Nigeria"
               usesDispositions="true"
-              version="6">
+              version="7">
               <properties>
                 <property
                   dataType="System.String"
@@ -1225,7 +1225,7 @@
               description="ODBC Source"
               name="Rwanda"
               usesDispositions="true"
-              version="6">
+              version="7">
               <properties>
                 <property
                   dataType="System.String"
@@ -1328,7 +1328,7 @@
               description="ODBC Source"
               name="Tanzania"
               usesDispositions="true"
-              version="6">
+              version="7">
               <properties>
                 <property
                   dataType="System.String"
@@ -1431,7 +1431,7 @@
               description="ODBC Source"
               name="Tubura"
               usesDispositions="true"
-              version="6">
+              version="7">
               <properties>
                 <property
                   dataType="System.String"
@@ -1726,7 +1726,7 @@
               description="ODBC Source"
               name="Uganda"
               usesDispositions="true"
-              version="6">
+              version="7">
               <properties>
                 <property
                   dataType="System.String"
@@ -1925,7 +1925,7 @@
               description="ODBC Source"
               name="Zambia"
               usesDispositions="true"
-              version="6">
+              version="7">
               <properties>
                 <property
                   dataType="System.String"

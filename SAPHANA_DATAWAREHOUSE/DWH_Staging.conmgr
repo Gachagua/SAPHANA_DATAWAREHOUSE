@@ -11,8 +11,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="bvABTI7MxQ=="
-        p4:IV="czmEPCJBMmM=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">YUhM2JXTvjA3/m/QEC7P5k8CU3g1nVLQG8URqoB+x9mcqWj2f3724dzr8YgGHmBxEKJCF2/+Aqha0vdW9wXRr6TFKSOEpiwuqPBbZU5cl2CvpktlrDjOFdtZ8/iUA++I5MZTns/5KuBRlC4Tm9dG8TlaqthUIwFdAV2laP3f1aQ=</DTS:Password>
+        p4:Salt="dCzbQydQL8g="
+        p4:IV="seKBEYhsio677y+gbkWboQ=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">dVGgiAldlzs4KkSEvunE1R+yDnlJ8xk9eMkSZwiYQMOxRlAP01/iLG15NVgwCxp0gEoO5s4pCbUg1eAXebvUh63unp7DiIHZVc3SW5vFMKk7V5zP8TWVgUsIszCfidDM1dCJ0V8WsNOIG+C4yve1NrqT4rdWgdcH0USpVHqMZy8=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
