@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DWH_Prod"
+  DTS:DTSID="{B2AA0ADE-D6D2-4541-9551-29B8E6827108}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=mtama.oneacrefund.org,6543;User ID=BOSSIS0001;Initial Catalog=InternalOperations;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-SAPHANA_DATAWAREHOUSE-{B2AA0ADE-D6D2-4541-9551-29B8E6827108}mtama.oneacrefund.org,6543.InternalOperations.BOSSIS0001;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="cQtDXdsrNIM="
+        p4:IV="TyElvCuqL+2iViIW2e91bw=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">tVgwkacn8w9l29zJj04xiwytylLdCVkyXb02JzB0nYFf+nbCi7fa734BuSAKrain/Cmz0/gqXumusEUaNHLwX98kAxDaiWvz37/OmyKHFjSbtneFMy9OAJQFMh/af4up1L/iYxazl3CFVHP9tb5iXl+fa8/uE2FOlKdYUsRKODc=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
