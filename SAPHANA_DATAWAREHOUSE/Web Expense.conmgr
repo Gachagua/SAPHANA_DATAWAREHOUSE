@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="Web Expense"
   DTS:DTSID="{D1560B41-AC24-44B1-AB08-F2C0888812BF}"
@@ -11,9 +11,8 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="lL29L3oEbAw="
-        p4:IV="B8JevgQfHucDZhblb7tuPA=="
-        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">MiC85bGHnaiGbm7ihxf604tq4KAhcSunAkDQC7PNDYQ/8bkgG9gB/TXyJCi+LQbHUVPPvvarL2Sstv0jyDk3QLLMp1cX2mUQreX9xmJRbGTP+ATMEuoNS2g7Qnc+TSzT4JfgJ2x4I/JAxepwqi6g12MlqQShd1g3oo3J5WGY+F8=</DTS:Password>
+        p4:Salt="oBVC6CUNaQ=="
+        p4:IV="QPqdL5degBI=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">HAQoXoqyUtrTnLHg9YxX5/RHar8hKoMrDiutAVWJQ2tig4/lNHdSM4EUkwO+RNb4XcGdM+cU16mhM+97KNGOf+os81SI0GhATgRvaEOhItNYKD+6S0FC+evvjZrgDD3bKt1Dn/yAkCrlOsmuWYfCLp3c7YxScRhGAJ8WC/rtdkw=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

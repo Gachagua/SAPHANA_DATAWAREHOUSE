@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">UZITO-PC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="pjS/Oqwmg+Y=" SSIS:IV="OilTXIp/ZqkZVfzJIssC1Q==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">xwiDM9RnEAwC+YI1wfCTn0+P5DZX/okgH8VIQc5z2VoXDSOw8EK7TDRAilwIvVOCb+sL2hde833Z0JSYIvnMyDxDyrfcbKo+4nhgcMfsK7Tl0sUh6Dd6hkJswI3046XTUi/54RVrkwe4vHWrAIfUWJXtu6kog3sBaN0eCQ4AEyiTUK5bNdQxBojl8nKu3YKn</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="Ek46HNTPPw==" SSIS:IV="pl0d4HLaLQQ=">ngsichfeBNmRFGbiMhMV6Z56AcDX8f4xD3VJAAdwcR5M8U54AavuxjFsr6NstEudqzUz9lJEHEkIu4mN6EZuGKG6dQrItb4Zjpo0gGP3WYoUEQn1WUku5sVT8DicfVv04TeUMXaNjbGQvn535WN6gctVhUc+nxs65s/PL8jcx6WF8Yz3YvYVvQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -756,10 +756,10 @@
                 <SSIS:Property SSIS:Name="Name">OJDT_HANA</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">17</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">18</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{5DA6CDAA-F7D3-4592-8A67-0F5EE9285CF1}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{4BFF52FA-19D8-4966-9E70-5EFEFF4F9FB4}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -773,10 +773,10 @@
                 <SSIS:Property SSIS:Name="Name">JDT1_HANA</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">11</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">12</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{BB0F9C7F-C722-4036-9EFD-625FB30EF70F}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{8D649585-BC44-4D25-A019-AE79314E3B90}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -790,10 +790,10 @@
                 <SSIS:Property SSIS:Name="Name">Item_load_HANA</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">72</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">83</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{02227821-3F24-4250-B60B-E954137524D4}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{D8EBA7D0-0F1F-4BFC-84D2-64F4EAC124D9}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -824,10 +824,10 @@
                 <SSIS:Property SSIS:Name="Name">Templates</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">4</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">5</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{974A2A26-ECF9-403F-B231-5577DE8A32B2}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{D02EF152-DAD4-480D-9CEE-8173C83820E9}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -875,10 +875,10 @@
                 <SSIS:Property SSIS:Name="Name">00_BusinessPartners</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">78</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">91</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{D26F59E2-0AE6-4C29-BE45-4600D2F165AF}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{7243AA60-A250-42E5-A4B9-9E74B530ED77}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -936,7 +936,7 @@
         <ConnectionProviderMappings />
         <ConnectionSecurityMappings />
         <DatabaseStorageLocations />
-        <TargetServerVersion>SQLServer2017</TargetServerVersion>
+        <TargetServerVersion>SQLServer2016</TargetServerVersion>
         <AzureMode>false</AzureMode>
         <LinkedAzureTenantId />
         <LinkedAzureAccountId />
