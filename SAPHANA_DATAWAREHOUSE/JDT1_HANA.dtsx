@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="2/29/2024 10:14:36 AM"
@@ -12,12 +12,28 @@
   DTS:ObjectName="JDT1_HANA"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{7CEE2654-CF2D-438C-A6D6-F3BF3A9ADC4F}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{2A30E8C4-3880-48D1-AC75-B0B629E07553}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
   <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Enable indexes"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{37B2CD70-0EE9-431B-A44B-2427D5B067E3}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Enable indexes"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{82416E09-B942-4133-8DC4-0B7632E7F7A4}"
+          SQLTask:SqlStatementSource="ALTER INDEX [JDT1_transid_countryid] ON [dbo].[JDT1_HANA] REBUILD PARTITION = ALL WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON);&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\JDT1_HANA"
       DTS:CreationName="Microsoft.Pipeline"
@@ -197,8 +213,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Burundi.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
-                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -3450,8 +3466,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Ethiopia.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
-                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -6635,8 +6651,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\JDT1_HANA.Connections[OleDbConnection]"
-                  connectionManagerID="{82416E09-B942-4133-8DC4-0B7632E7F7A4}:invalid"
-                  connectionManagerRefId="{82416E09-B942-4133-8DC4-0B7632E7F7A4}:invalid"
+                  connectionManagerID="{82416E09-B942-4133-8DC4-0B7632E7F7A4}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[DWH_Staging]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -8788,8 +8804,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Kenya.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
-                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -11945,8 +11961,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Malawi.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
-                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -15294,8 +15310,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Nigeria.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
-                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -18624,8 +18640,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Rwanda.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
-                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -21781,8 +21797,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Tanzania.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
-                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -24938,8 +24954,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Tubura.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
-                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -28268,8 +28284,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Uganda.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
-                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -58040,8 +58056,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\USA.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
-                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -61293,8 +61309,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Zambia.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
-                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -64440,59 +64456,59 @@
               startId="Package\JDT1_HANA\ETH.Outputs[Derived Column Output]" />
             <path
               refId="Package\JDT1_HANA.Paths[ODBC Source Output9]"
-              endId="Package\JDT1_HANA\BI.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Burundi.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\JDT1_HANA.Paths[ODBC Source Output8]"
-              endId="Package\JDT1_HANA\ZA.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Zambia.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\JDT1_HANA.Paths[ODBC Source Output7]"
-              endId="Package\JDT1_HANA\US.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\JDT1_HANA\USA.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\JDT1_HANA.Paths[ODBC Source Output6]"
-              endId="Package\JDT1_HANA\ETH.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Ethiopia.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\JDT1_HANA.Paths[ODBC Source Output5]"
-              endId="Package\JDT1_HANA\UG.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Uganda.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\JDT1_HANA.Paths[ODBC Source Output]"
-              endId="Package\JDT1_HANA\KE.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Kenya.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\JDT1_HANA.Paths[ODBC Source Output3]"
-              endId="Package\JDT1_HANA\NG.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Nigeria.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\JDT1_HANA.Paths[ODBC Source Output2]"
-              endId="Package\JDT1_HANA\RW-TBR.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Tubura.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\JDT1_HANA.Paths[ODBC Source Output1]"
-              endId="Package\JDT1_HANA\RW.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Rwanda.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\JDT1_HANA.Paths[ODBC Source Output10]"
               endId="Package\JDT1_HANA\MW.Inputs[Derived Column Input]"
               name="ODBC Source Output"
               startId="Package\JDT1_HANA\Malawi.Outputs[ODBC Source Output]" />
             <path
-              refId="Package\JDT1_HANA.Paths[ODBC Source Output4]"
+              refId="Package\JDT1_HANA.Paths[ODBC Source Output8]"
+              endId="Package\JDT1_HANA\RW.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\JDT1_HANA\Rwanda.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\JDT1_HANA.Paths[ODBC Source Output7]"
+              endId="Package\JDT1_HANA\RW-TBR.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\JDT1_HANA\Tubura.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\JDT1_HANA.Paths[ODBC Source Output6]"
+              endId="Package\JDT1_HANA\NG.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\JDT1_HANA\Nigeria.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\JDT1_HANA.Paths[ODBC Source Output5]"
+              endId="Package\JDT1_HANA\KE.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\JDT1_HANA\Kenya.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\JDT1_HANA.Paths[ODBC Source Output]"
+              endId="Package\JDT1_HANA\BI.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\JDT1_HANA\Burundi.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\JDT1_HANA.Paths[ODBC Source Output3]"
+              endId="Package\JDT1_HANA\ETH.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\JDT1_HANA\Ethiopia.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\JDT1_HANA.Paths[ODBC Source Output2]"
+              endId="Package\JDT1_HANA\US.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\JDT1_HANA\USA.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\JDT1_HANA.Paths[ODBC Source Output1]"
+              endId="Package\JDT1_HANA\ZA.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\JDT1_HANA\Zambia.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\JDT1_HANA.Paths[ODBC Source Output10]"
               endId="Package\JDT1_HANA\TZ.Inputs[Derived Column Input]"
               name="ODBC Source Output"
               startId="Package\JDT1_HANA\Tanzania.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\JDT1_HANA.Paths[ODBC Source Output4]"
+              endId="Package\JDT1_HANA\UG.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\JDT1_HANA\Uganda.Outputs[ODBC Source Output]" />
             <path
               refId="Package\JDT1_HANA.Paths[Union All Output 1]"
               endId="Package\JDT1_HANA\JDT1_HANA.Inputs[OLE DB Destination Input]"
@@ -64503,19 +64519,19 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Truncate JDT1_HANA"
+      DTS:refId="Package\Truncate-disable indexes JDT1_HANA"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{5070D6C4-3E12-4370-8F05-6ACF752D4939}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Truncate JDT1_HANA"
+      DTS:ObjectName="Truncate-disable indexes JDT1_HANA"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{82416E09-B942-4133-8DC4-0B7632E7F7A4}"
-          SQLTask:SqlStatementSource="Truncate table JDT1_HANA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Truncate table JDT1_HANA;&#xA;ALTER INDEX [JDT1_transid_countryid] ON [dbo].[JDT1_HANA] DISABLE;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -64524,10 +64540,18 @@
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{5453994F-7CAD-4D3B-A02D-3864DE1B114F}"
-      DTS:From="Package\Truncate JDT1_HANA"
+      DTS:From="Package\Truncate-disable indexes JDT1_HANA"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\JDT1_HANA" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{C9D86C90-9AC8-40A9-9AED-A0CD2FDA1F8D}"
+      DTS:From="Package\JDT1_HANA"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\Enable indexes" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -64540,29 +64564,67 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="142,42"
           Id="Package\JDT1_HANA"
           TopLeft="28.5,107.5" />
         <NodeLayout
-          Size="188,42"
-          Id="Package\Truncate JDT1_HANA"
-          TopLeft="5.50000000000001,5.5" />
+          Size="268,42"
+          Id="Package\Truncate-disable indexes JDT1_HANA"
+          TopLeft="5.5,5.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="99.5,47.5">
+          TopLeft="139.5,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="-40,60"
               Start="0,0"
-              End="0,52.5">
+              End="-40,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-36,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-36,30"
+                    Point2="-40,30"
+                    Point3="-40,34" />
+                  <mssgle:LineSegment
+                    End="-40,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Enable indexes"
+          TopLeft="18,206" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="97.25,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,56.5"
+              Start="0,0"
+              End="0,49">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,49" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -64668,7 +64730,7 @@
           Id="Package\JDT1_HANA\BI"
           TopLeft="1523,107.5" />
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output9]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output]"
           TopLeft="1657.5,47.4999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -64702,7 +64764,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output4]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output10]"
           TopLeft="1476.5,47.4999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -64736,7 +64798,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output5]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output4]"
           TopLeft="64.5,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -64770,7 +64832,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output6]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output3]"
           TopLeft="595.5,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -64804,7 +64866,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output10]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output9]"
           TopLeft="1297.5,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -64838,7 +64900,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output8]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output1]"
           TopLeft="242.5,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -65222,7 +65284,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output5]"
           TopLeft="945.5,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -65244,7 +65306,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output1]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output8]"
           TopLeft="1120.5,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -65278,7 +65340,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output2]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output7]"
           TopLeft="774.5,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -65300,7 +65362,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output3]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output6]"
           TopLeft="418.5,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -65342,7 +65404,7 @@
           Id="Package\JDT1_HANA\US"
           TopLeft="1672.5,107.5" />
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output7]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output2]"
           TopLeft="1827.5,47.4999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -65414,14 +65476,6 @@
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\JDT1_HANA\Uganda">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\JDT1_HANA\Zambia">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -65507,6 +65561,14 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\JDT1_HANA\USA">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\JDT1_HANA\Zambia">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
