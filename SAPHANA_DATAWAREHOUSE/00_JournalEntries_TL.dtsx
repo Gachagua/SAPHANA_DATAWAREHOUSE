@@ -12,8 +12,8 @@
   DTS:ObjectName="00_JournalEntries_TL"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{A57C18FA-D473-4F69-90AD-755A67BB7C09}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{414109F5-422B-436A-96E4-EA9C9A3C5BE5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -3268,25 +3268,25 @@ on t0.TransId=t1.TransId and t0.CountryId=t1.CountryId</property>
         <NodeLayout
           Size="138,42"
           Id="Package\JournalEntries (OJDT-JDT1)\OJDT-JDT1"
-          TopLeft="427,96" />
+          TopLeft="11,5.5" />
         <NodeLayout
           Size="149,42"
           Id="Package\JournalEntries (OJDT-JDT1)\JournalEntries"
-          TopLeft="422,202" />
+          TopLeft="5.50000000000001,107.5" />
         <EdgeLayout
           Id="Package\JournalEntries (OJDT-JDT1).Paths[OLE DB Source Output]"
-          TopLeft="496.25,138">
+          TopLeft="80,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,64"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,56.5">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,56.5" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
