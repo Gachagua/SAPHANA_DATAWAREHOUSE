@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">UZITO-PC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="Ek46HNTPPw==" SSIS:IV="pl0d4HLaLQQ=">ngsichfeBNmRFGbiMhMV6Z56AcDX8f4xD3VJAAdwcR5M8U54AavuxjFsr6NstEudqzUz9lJEHEkIu4mN6EZuGKG6dQrItb4Zjpo0gGP3WYoUEQn1WUku5sVT8DicfVv04TeUMXaNjbGQvn535WN6gctVhUc+nxs65s/PL8jcx6WF8Yz3YvYVvQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="a0gGQDp37g==" SSIS:IV="u2+xf3RBdco=">6ra4rCJz0NF1mS8c/FR6e+xtEiYHOk+1jx9Wi+Hmmu0Zn4S0H2nk0FWLwsscfQOcIZl/TZ7laMGNyfMBnBqCY+XaRa0iYc3JX+ipW+CHq176F7YZ6sorjfwogy8/c9qMICIEvuo1HdkoHs79Cyyfnuh+fZOoQhdUdFO7/l2S8am1TK4+jzYdMQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -40,6 +40,7 @@
           <SSIS:Package SSIS:Name="00_BusinessPartners.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="GroupDB_Loads_deprecated.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="00_01_BusinessPartners_deprecated.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="00_JournalEntries_TL.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="SAP HANA 32.DWAREHOUSE.conmgr" />
@@ -913,6 +914,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{C1B2AA13-2653-425F-B636-CBE5D0B55A5B}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="00_JournalEntries_TL.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{8DB4D6CD-D1C8-4B9A-9566-D79F48431257}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">00_JournalEntries_TL</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{9E906C7F-2A01-4B60-B9D4-4DD2FB84B991}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
