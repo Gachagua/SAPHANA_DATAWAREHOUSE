@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="3/5/2024 3:05:42 PM"
@@ -13,7 +13,7 @@
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
   DTS:VersionBuild="5"
-  DTS:VersionGUID="{414109F5-422B-436A-96E4-EA9C9A3C5BE5}">
+  DTS:VersionGUID="{FF15F9D7-B71E-4B60-9DA2-B45EBAC4195A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -91,8 +91,8 @@
               <connections>
                 <connection
                   refId="Package\JournalEntries (OJDT-JDT1)\JournalEntries.Connections[OleDbConnection]"
-                  connectionManagerID="{B2AA0ADE-D6D2-4541-9551-29B8E6827108}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DWH_Prod]"
+                  connectionManagerID="{B2AA0ADE-D6D2-4541-9551-29B8E6827108}:invalid"
+                  connectionManagerRefId="{B2AA0ADE-D6D2-4541-9551-29B8E6827108}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1319,8 +1319,8 @@ on t0.TransId=t1.TransId and t0.CountryId=t1.CountryId</property>
               <connections>
                 <connection
                   refId="Package\JournalEntries (OJDT-JDT1)\OJDT-JDT1.Connections[OleDbConnection]"
-                  connectionManagerID="{82416E09-B942-4133-8DC4-0B7632E7F7A4}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DWH_Staging]"
+                  connectionManagerID="{82416E09-B942-4133-8DC4-0B7632E7F7A4}:invalid"
+                  connectionManagerRefId="{82416E09-B942-4133-8DC4-0B7632E7F7A4}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>

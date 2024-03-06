@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="2/29/2024 10:14:36 AM"
@@ -13,7 +13,7 @@
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
   DTS:VersionBuild="13"
-  DTS:VersionGUID="{2A30E8C4-3880-48D1-AC75-B0B629E07553}">
+  DTS:VersionGUID="{D24E2378-DC9B-43F2-882A-FB524E981928}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -213,8 +213,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Burundi.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -3466,8 +3466,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Ethiopia.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -6651,8 +6651,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\JDT1_HANA.Connections[OleDbConnection]"
-                  connectionManagerID="{82416E09-B942-4133-8DC4-0B7632E7F7A4}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DWH_Staging]"
+                  connectionManagerID="{82416E09-B942-4133-8DC4-0B7632E7F7A4}:invalid"
+                  connectionManagerRefId="{82416E09-B942-4133-8DC4-0B7632E7F7A4}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -8804,8 +8804,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Kenya.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -11961,8 +11961,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Malawi.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -15310,8 +15310,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Nigeria.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -18640,8 +18640,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Rwanda.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -21797,8 +21797,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Tanzania.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -24954,8 +24954,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Tubura.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -28284,8 +28284,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Uganda.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -58056,8 +58056,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\USA.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -61309,8 +61309,8 @@
               <connections>
                 <connection
                   refId="Package\JDT1_HANA\Zambia.Connections[ODBCConnection]"
-                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[SAP HANA 32.DWAREHOUSE]"
+                  connectionManagerID="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
+                  connectionManagerRefId="{35F7C03A-FB9F-4695-AA92-922635CA01AA}:invalid"
                   description="The ODBC runtime connection used to access the database."
                   name="ODBCConnection" />
               </connections>
@@ -64456,9 +64456,9 @@
               startId="Package\JDT1_HANA\ETH.Outputs[Derived Column Output]" />
             <path
               refId="Package\JDT1_HANA.Paths[ODBC Source Output9]"
-              endId="Package\JDT1_HANA\MW.Inputs[Derived Column Input]"
+              endId="Package\JDT1_HANA\UG.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Malawi.Outputs[ODBC Source Output]" />
+              startId="Package\JDT1_HANA\Uganda.Outputs[ODBC Source Output]" />
             <path
               refId="Package\JDT1_HANA.Paths[ODBC Source Output8]"
               endId="Package\JDT1_HANA\RW.Inputs[Derived Column Input]"
@@ -64476,14 +64476,14 @@
               startId="Package\JDT1_HANA\Nigeria.Outputs[ODBC Source Output]" />
             <path
               refId="Package\JDT1_HANA.Paths[ODBC Source Output5]"
-              endId="Package\JDT1_HANA\KE.Inputs[Derived Column Input]"
+              endId="Package\JDT1_HANA\MW.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Kenya.Outputs[ODBC Source Output]" />
+              startId="Package\JDT1_HANA\Malawi.Outputs[ODBC Source Output]" />
             <path
               refId="Package\JDT1_HANA.Paths[ODBC Source Output]"
-              endId="Package\JDT1_HANA\BI.Inputs[Derived Column Input]"
+              endId="Package\JDT1_HANA\TZ.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Burundi.Outputs[ODBC Source Output]" />
+              startId="Package\JDT1_HANA\Tanzania.Outputs[ODBC Source Output]" />
             <path
               refId="Package\JDT1_HANA.Paths[ODBC Source Output3]"
               endId="Package\JDT1_HANA\ETH.Inputs[Derived Column Input]"
@@ -64501,14 +64501,14 @@
               startId="Package\JDT1_HANA\Zambia.Outputs[ODBC Source Output]" />
             <path
               refId="Package\JDT1_HANA.Paths[ODBC Source Output10]"
-              endId="Package\JDT1_HANA\TZ.Inputs[Derived Column Input]"
+              endId="Package\JDT1_HANA\KE.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Tanzania.Outputs[ODBC Source Output]" />
+              startId="Package\JDT1_HANA\Kenya.Outputs[ODBC Source Output]" />
             <path
               refId="Package\JDT1_HANA.Paths[ODBC Source Output4]"
-              endId="Package\JDT1_HANA\UG.Inputs[Derived Column Input]"
+              endId="Package\JDT1_HANA\BI.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\JDT1_HANA\Uganda.Outputs[ODBC Source Output]" />
+              startId="Package\JDT1_HANA\Burundi.Outputs[ODBC Source Output]" />
             <path
               refId="Package\JDT1_HANA.Paths[Union All Output 1]"
               endId="Package\JDT1_HANA\JDT1_HANA.Inputs[OLE DB Destination Input]"
@@ -64730,7 +64730,7 @@
           Id="Package\JDT1_HANA\BI"
           TopLeft="1523,107.5" />
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output4]"
           TopLeft="1657.5,47.4999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -64764,7 +64764,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output10]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output]"
           TopLeft="1476.5,47.4999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -64798,7 +64798,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output4]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output9]"
           TopLeft="64.5,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -64866,7 +64866,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output9]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output5]"
           TopLeft="1297.5,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -65284,7 +65284,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\JDT1_HANA.Paths[ODBC Source Output5]"
+          Id="Package\JDT1_HANA.Paths[ODBC Source Output10]"
           TopLeft="945.5,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve

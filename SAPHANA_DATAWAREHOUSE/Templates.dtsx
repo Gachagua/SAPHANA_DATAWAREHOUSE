@@ -12,8 +12,8 @@
   DTS:ObjectName="Templates"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{22982C50-5478-4A58-805C-0A28C239D655}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{8B8866C5-4A15-4ED7-A76C-E436157C338D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -30,6 +30,7 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <pipeline
+          autoAdjustBufferSize="true"
           version="1">
           <components>
             <component
@@ -2316,6 +2317,10 @@
           Id="Package\Template\Kenya"
           TopLeft="190.5,5.5" />
         <NodeLayout
+          Size="93,42"
+          Id="Package\Template\ZA"
+          TopLeft="1259,107.5" />
+        <NodeLayout
           Size="99,42"
           Id="Package\Template\MW"
           TopLeft="1081,107.5" />
@@ -2340,9 +2345,9 @@
           Id="Package\Template\Nigeria"
           TopLeft="1424.5,5.49999999999977" />
         <NodeLayout
-          Size="116,42"
-          Id="Package\Template\Zambia"
-          TopLeft="1247.5,5.49999999999977" />
+          Size="102,42"
+          Id="Package\Template\USA"
+          TopLeft="1794,7" />
         <NodeLayout
           Size="113,42"
           Id="Package\Template\Malawi"
@@ -2360,6 +2365,10 @@
           Id="Package\Template\RW-TBR"
           TopLeft="536,107.5" />
         <NodeLayout
+          Size="116,42"
+          Id="Package\Template\Zambia"
+          TopLeft="1247.5,5.49999999999977" />
+        <NodeLayout
           Size="95,42"
           Id="Package\Template\NG"
           TopLeft="1434,107.5" />
@@ -2372,9 +2381,9 @@
           Id="Package\Template\Rwanda"
           TopLeft="361,5.49999999999989" />
         <NodeLayout
-          Size="93,42"
-          Id="Package\Template\ZA"
-          TopLeft="1259,107.5" />
+          Size="94,42"
+          Id="Package\Template\US"
+          TopLeft="1795.5,97.5" />
         <NodeLayout
           Size="124,42"
           Id="Package\Template\Tanzania"
@@ -2387,6 +2396,72 @@
           Size="92,42"
           Id="Package\Template\TZ"
           TopLeft="21.5,107.5" />
+        <EdgeLayout
+          Id="Package\Template.Paths[ODBC Source Output1]"
+          TopLeft="245.5,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Template.Paths[ODBC Source Output]"
+          TopLeft="67.5,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Template.Paths[ODBC Source Output10]"
+          TopLeft="1843.75,49">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,48.5"
+              Start="0,0"
+              End="0,41">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Template.Paths[ODBC Source Output9]"
           TopLeft="1657.5,47.4999999999998">
@@ -2555,80 +2630,6 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Template.Paths[ODBC Source Output1]"
-          TopLeft="245.5,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Template.Paths[ODBC Source Output]"
-          TopLeft="67.5,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="94,42"
-          Id="Package\Template\US"
-          TopLeft="1795.5,97.5" />
-        <NodeLayout
-          Size="102,42"
-          Id="Package\Template\USA"
-          TopLeft="1794,7" />
-        <EdgeLayout
-          Id="Package\Template.Paths[ODBC Source Output10]"
-          TopLeft="1843.75,49">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,48.5"
-              Start="0,0"
-              End="0,41">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,41" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
