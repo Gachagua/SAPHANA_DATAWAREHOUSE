@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">UZITO-PC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="TGPLpYmMwA==" SSIS:IV="QzwFZiBUYkc=">Js8OJxPeLBwETN2nD8O9RC6xj26WQyF1yu8ESFKy/Kcb0cEagDUEPoN4VTfiWyEEwjYMu0ocU1TwrxMOK18jIGg8U5gJHZo7sNrXBILJxo0QFxoLnoBcwmxpqOPV4v14w1mlVj+FfKMp1LIRsOPwDXGPrhH7Ey8/GgJ3s2ya6whdLTyEXAcQWQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="c3WyV5y28w==" SSIS:IV="wcBdQA06uhc=">OKuwZBcs1qX9o4t3It5IbRUBGO42HcSqwaZc+ybMCZu2QEzeMEFx5lXMIAZFF1WTZ8TRNEQqTtbIDLwSBGLQ1VVs2oOduFp/844Tq0yIM0PLEc0Z/OgXMpDEU8n2KTfjIPdwHxbKbsW2WXydiNa97+A94A5JmifgvH3nMAwd0Qz2cI+HNAmWwQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -54,6 +54,7 @@
           <SSIS:Package SSIS:Name="Purchasing_5_HANA.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Assets_1_HANA.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="InventoryCounting_HANA.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="InternalReconciliation_HANA.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="SAP HANA 32.DWAREHOUSE.conmgr" />
@@ -1315,6 +1316,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{27EC2858-81AC-4D76-A620-5EBF4DA6DB83}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="InternalReconciliation_HANA.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{30BC97DC-C8AB-48CC-8A43-A2C079F7DCBF}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">InternalReconciliation_HANA</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">5</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{30172F66-28C0-4A3C-B0E2-FF544A584F05}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
