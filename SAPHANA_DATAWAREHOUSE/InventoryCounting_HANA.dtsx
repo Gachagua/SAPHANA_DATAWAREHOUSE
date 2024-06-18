@@ -12,8 +12,8 @@
   DTS:ObjectName="InventoryCounting_HANA"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{27EC2858-81AC-4D76-A620-5EBF4DA6DB83}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{0FCA2F91-B53F-472D-9D86-B0B884143DF4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -19551,59 +19551,59 @@
               startId="Package\AIN1\BI.Outputs[Derived Column Output]" />
             <path
               refId="Package\AIN1.Paths[ODBC Source Output9]"
-              endId="Package\AIN1\KE.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AIN1\Kenya.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AIN1.Paths[ODBC Source Output8]"
-              endId="Package\AIN1\RW.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AIN1\Rwanda.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AIN1.Paths[ODBC Source Output7]"
-              endId="Package\AIN1\RW-TBR.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AIN1\Tubura.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AIN1.Paths[ODBC Source Output6]"
-              endId="Package\AIN1\UG.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AIN1\Uganda.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AIN1.Paths[ODBC Source Output5]"
-              endId="Package\AIN1\ETH.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AIN1\Ethiopia.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AIN1.Paths[ODBC Source Output]"
-              endId="Package\AIN1\TZ.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AIN1\Tanzania.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AIN1.Paths[ODBC Source Output3]"
-              endId="Package\AIN1\ZA.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AIN1\Zambia.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AIN1.Paths[ODBC Source Output2]"
-              endId="Package\AIN1\NG.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AIN1\Nigeria.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AIN1.Paths[ODBC Source Output1]"
-              endId="Package\AIN1\BI.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AIN1\Burundi.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AIN1.Paths[ODBC Source Output10]"
               endId="Package\AIN1\US.Inputs[Derived Column Input]"
               name="ODBC Source Output"
               startId="Package\AIN1\USA.Outputs[ODBC Source Output]" />
             <path
-              refId="Package\AIN1.Paths[ODBC Source Output4]"
+              refId="Package\AIN1.Paths[ODBC Source Output8]"
+              endId="Package\AIN1\BI.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AIN1\Burundi.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AIN1.Paths[ODBC Source Output7]"
+              endId="Package\AIN1\NG.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AIN1\Nigeria.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AIN1.Paths[ODBC Source Output6]"
+              endId="Package\AIN1\ZA.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AIN1\Zambia.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AIN1.Paths[ODBC Source Output5]"
+              endId="Package\AIN1\TZ.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AIN1\Tanzania.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AIN1.Paths[ODBC Source Output]"
+              endId="Package\AIN1\KE.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AIN1\Kenya.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AIN1.Paths[ODBC Source Output3]"
+              endId="Package\AIN1\UG.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AIN1\Uganda.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AIN1.Paths[ODBC Source Output2]"
+              endId="Package\AIN1\RW-TBR.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AIN1\Tubura.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AIN1.Paths[ODBC Source Output1]"
+              endId="Package\AIN1\RW.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AIN1\Rwanda.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AIN1.Paths[ODBC Source Output10]"
               endId="Package\AIN1\MW.Inputs[Derived Column Input]"
               name="ODBC Source Output"
               startId="Package\AIN1\Malawi.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AIN1.Paths[ODBC Source Output4]"
+              endId="Package\AIN1\ETH.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AIN1\Ethiopia.Outputs[ODBC Source Output]" />
             <path
               refId="Package\AIN1.Paths[Union All Output 1]"
               endId="Package\AIN1\AIN1_HANA.Inputs[OLE DB Destination Input]"
@@ -38416,59 +38416,59 @@
               startId="Package\AINC\BI.Outputs[Derived Column Output]" />
             <path
               refId="Package\AINC.Paths[ODBC Source Output9]"
-              endId="Package\AINC\KE.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AINC\Kenya.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AINC.Paths[ODBC Source Output8]"
-              endId="Package\AINC\RW.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AINC\Rwanda.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AINC.Paths[ODBC Source Output7]"
-              endId="Package\AINC\RW-TBR.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AINC\Tubura.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AINC.Paths[ODBC Source Output6]"
-              endId="Package\AINC\UG.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AINC\Uganda.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AINC.Paths[ODBC Source Output5]"
-              endId="Package\AINC\ETH.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AINC\Ethiopia.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AINC.Paths[ODBC Source Output]"
-              endId="Package\AINC\TZ.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AINC\Tanzania.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AINC.Paths[ODBC Source Output3]"
-              endId="Package\AINC\ZA.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AINC\Zambia.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AINC.Paths[ODBC Source Output2]"
-              endId="Package\AINC\NG.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AINC\Nigeria.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AINC.Paths[ODBC Source Output1]"
-              endId="Package\AINC\BI.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\AINC\Burundi.Outputs[ODBC Source Output]" />
-            <path
-              refId="Package\AINC.Paths[ODBC Source Output10]"
               endId="Package\AINC\US.Inputs[Derived Column Input]"
               name="ODBC Source Output"
               startId="Package\AINC\USA.Outputs[ODBC Source Output]" />
             <path
-              refId="Package\AINC.Paths[ODBC Source Output4]"
+              refId="Package\AINC.Paths[ODBC Source Output8]"
+              endId="Package\AINC\BI.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AINC\Burundi.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AINC.Paths[ODBC Source Output7]"
+              endId="Package\AINC\NG.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AINC\Nigeria.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AINC.Paths[ODBC Source Output6]"
+              endId="Package\AINC\ZA.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AINC\Zambia.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AINC.Paths[ODBC Source Output5]"
+              endId="Package\AINC\TZ.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AINC\Tanzania.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AINC.Paths[ODBC Source Output]"
+              endId="Package\AINC\KE.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AINC\Kenya.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AINC.Paths[ODBC Source Output3]"
+              endId="Package\AINC\UG.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AINC\Uganda.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AINC.Paths[ODBC Source Output2]"
+              endId="Package\AINC\RW-TBR.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AINC\Tubura.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AINC.Paths[ODBC Source Output1]"
+              endId="Package\AINC\RW.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AINC\Rwanda.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AINC.Paths[ODBC Source Output10]"
               endId="Package\AINC\MW.Inputs[Derived Column Input]"
               name="ODBC Source Output"
               startId="Package\AINC\Malawi.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\AINC.Paths[ODBC Source Output4]"
+              endId="Package\AINC\ETH.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\AINC\Ethiopia.Outputs[ODBC Source Output]" />
             <path
               refId="Package\AINC.Paths[Union All Output 1]"
               endId="Package\AINC\AINC_HANA.Inputs[OLE DB Destination Input]"
@@ -38533,28 +38533,6 @@
           Size="105,42"
           Id="Package\AINC"
           TopLeft="30.5,107.5" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="83,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <NodeLayout
           Size="155,42"
           Id="Package\Truncate tables"
@@ -38581,6 +38559,28 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="83,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -38588,7 +38588,7 @@
     design-time-name="Package\AIN1">
     <LayoutInfo>
       <GraphLayout
-        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="93,42"
           Id="Package\AIN1\ZA"
@@ -38716,9 +38716,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38752,9 +38750,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38776,9 +38772,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38812,9 +38806,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38848,9 +38840,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38884,9 +38874,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38908,13 +38896,33 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\AIN1.Paths[ODBC Source Output10]"
+          TopLeft="924.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AIN1.Paths[ODBC Source Output9]"
           TopLeft="756.5,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -38944,289 +38952,11 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AIN1.Paths[ODBC Source Output9]"
-          TopLeft="60.5,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="57,60"
-              Start="0,0"
-              End="57,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="4,30" />
-                  <mssgle:LineSegment
-                    End="53,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="53,30"
-                    Point2="57,30"
-                    Point3="57,34" />
-                  <mssgle:LineSegment
-                    End="57,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\AIN1.Paths[ODBC Source Output8]"
-          TopLeft="1635.5,47.4999999999998">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-86,60"
-              Start="0,0"
-              End="-86,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-82,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-82,30"
-                    Point2="-86,30"
-                    Point3="-86,34" />
-                  <mssgle:LineSegment
-                    End="-86,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AIN1.Paths[ODBC Source Output7]"
-          TopLeft="412.5,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="30,59.9999999999999"
-              Start="0,0"
-              End="30,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.9999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.9999999999999"
-                    Point2="0,29.9999999999999"
-                    Point3="4,29.9999999999999" />
-                  <mssgle:LineSegment
-                    End="26,29.9999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="26,29.9999999999999"
-                    Point2="30,29.9999999999999"
-                    Point3="30,33.9999999999999" />
-                  <mssgle:LineSegment
-                    End="30,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AIN1.Paths[ODBC Source Output6]"
-          TopLeft="235.5,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="37,60"
-              Start="0,0"
-              End="37,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="4,30" />
-                  <mssgle:LineSegment
-                    End="33,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="33,30"
-                    Point2="37,30"
-                    Point3="37,34" />
-                  <mssgle:LineSegment
-                    End="37,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AIN1.Paths[ODBC Source Output5]"
-          TopLeft="1455.5,47.4999999999998">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-66,60"
-              Start="0,0"
-              End="-66,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-62,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-62,30"
-                    Point2="-66,30"
-                    Point3="-66,34" />
-                  <mssgle:LineSegment
-                    End="-66,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AIN1.Paths[ODBC Source Output4]"
-          TopLeft="924.5,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AIN1.Paths[ODBC Source Output3]"
-          TopLeft="1277.5,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-46,60"
-              Start="0,0"
-              End="-46,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-42,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-42,30"
-                    Point2="-46,30"
-                    Point3="-46,34" />
-                  <mssgle:LineSegment
-                    End="-46,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AIN1.Paths[ODBC Source Output2]"
-          TopLeft="587.5,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="25,60"
-              Start="0,0"
-              End="25,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="4,30" />
-                  <mssgle:LineSegment
-                    End="21,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="21,30"
-                    Point2="25,30"
-                    Point3="25,34" />
-                  <mssgle:LineSegment
-                    End="25,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AIN1.Paths[ODBC Source Output1]"
           TopLeft="1100.5,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -39256,13 +38986,79 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\AIN1.Paths[ODBC Source Output]"
+          Id="Package\AIN1.Paths[ODBC Source Output7]"
+          TopLeft="587.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="25,60"
+              Start="0,0"
+              End="25,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
+                  <mssgle:LineSegment
+                    End="21,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="21,30"
+                    Point2="25,30"
+                    Point3="25,34" />
+                  <mssgle:LineSegment
+                    End="25,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AIN1.Paths[ODBC Source Output6]"
+          TopLeft="1277.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-46,60"
+              Start="0,0"
+              End="-46,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-42,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-42,30"
+                    Point2="-46,30"
+                    Point3="-46,34" />
+                  <mssgle:LineSegment
+                    End="-46,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AIN1.Paths[ODBC Source Output5]"
           TopLeft="1817.5,47.4999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -39292,9 +39088,177 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AIN1.Paths[ODBC Source Output4]"
+          TopLeft="1455.5,47.4999999999998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-66,60"
+              Start="0,0"
+              End="-66,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-62,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-62,30"
+                    Point2="-66,30"
+                    Point3="-66,34" />
+                  <mssgle:LineSegment
+                    End="-66,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AIN1.Paths[ODBC Source Output3]"
+          TopLeft="235.5,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="37,60"
+              Start="0,0"
+              End="37,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
+                  <mssgle:LineSegment
+                    End="33,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="33,30"
+                    Point2="37,30"
+                    Point3="37,34" />
+                  <mssgle:LineSegment
+                    End="37,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AIN1.Paths[ODBC Source Output2]"
+          TopLeft="412.5,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="30,59.9999999999999"
+              Start="0,0"
+              End="30,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.9999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.9999999999999"
+                    Point2="0,29.9999999999999"
+                    Point3="4,29.9999999999999" />
+                  <mssgle:LineSegment
+                    End="26,29.9999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="26,29.9999999999999"
+                    Point2="30,29.9999999999999"
+                    Point3="30,33.9999999999999" />
+                  <mssgle:LineSegment
+                    End="30,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AIN1.Paths[ODBC Source Output1]"
+          TopLeft="1635.5,47.4999999999998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-86,60"
+              Start="0,0"
+              End="-86,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-82,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-82,30"
+                    Point2="-86,30"
+                    Point3="-86,34" />
+                  <mssgle:LineSegment
+                    End="-86,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AIN1.Paths[ODBC Source Output]"
+          TopLeft="60.5,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="57,60"
+              Start="0,0"
+              End="57,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
+                  <mssgle:LineSegment
+                    End="53,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="53,30"
+                    Point2="57,30"
+                    Point3="57,34" />
+                  <mssgle:LineSegment
+                    End="57,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39328,9 +39292,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39364,9 +39326,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39400,9 +39360,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39436,9 +39394,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39472,19 +39428,30 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\AIN1\AIN1_HANA">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\AINC">
     <LayoutInfo>
       <GraphLayout
-        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="119,42"
           Id="Package\AINC\Ethiopia"
@@ -39583,246 +39550,6 @@
           TopLeft="1219.5,5.49999999999989" />
         <EdgeLayout
           Id="Package\AINC.Paths[ODBC Source Output8]"
-          TopLeft="1635.5,47.4999999999998">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-86,60"
-              Start="0,0"
-              End="-86,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-82,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-82,30"
-                    Point2="-86,30"
-                    Point3="-86,34" />
-                  <mssgle:LineSegment
-                    End="-86,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AINC.Paths[ODBC Source Output7]"
-          TopLeft="412.5,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="30,59.9999999999999"
-              Start="0,0"
-              End="30,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.9999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.9999999999999"
-                    Point2="0,29.9999999999999"
-                    Point3="4,29.9999999999999" />
-                  <mssgle:LineSegment
-                    End="26,29.9999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="26,29.9999999999999"
-                    Point2="30,29.9999999999999"
-                    Point3="30,33.9999999999999" />
-                  <mssgle:LineSegment
-                    End="30,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AINC.Paths[ODBC Source Output6]"
-          TopLeft="235.5,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="37,60"
-              Start="0,0"
-              End="37,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="4,30" />
-                  <mssgle:LineSegment
-                    End="33,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="33,30"
-                    Point2="37,30"
-                    Point3="37,34" />
-                  <mssgle:LineSegment
-                    End="37,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AINC.Paths[ODBC Source Output5]"
-          TopLeft="1455.5,47.4999999999998">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-66,60"
-              Start="0,0"
-              End="-66,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-62,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-62,30"
-                    Point2="-66,30"
-                    Point3="-66,34" />
-                  <mssgle:LineSegment
-                    End="-66,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AINC.Paths[ODBC Source Output4]"
-          TopLeft="924.5,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AINC.Paths[ODBC Source Output3]"
-          TopLeft="1277.5,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-46,60"
-              Start="0,0"
-              End="-46,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-42,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-42,30"
-                    Point2="-46,30"
-                    Point3="-46,34" />
-                  <mssgle:LineSegment
-                    End="-46,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AINC.Paths[ODBC Source Output2]"
-          TopLeft="587.5,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="25,60"
-              Start="0,0"
-              End="25,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="4,30" />
-                  <mssgle:LineSegment
-                    End="21,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="21,30"
-                    Point2="25,30"
-                    Point3="25,34" />
-                  <mssgle:LineSegment
-                    End="25,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AINC.Paths[ODBC Source Output1]"
           TopLeft="1100.5,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -39852,13 +39579,79 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\AINC.Paths[ODBC Source Output]"
+          Id="Package\AINC.Paths[ODBC Source Output7]"
+          TopLeft="587.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="25,60"
+              Start="0,0"
+              End="25,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
+                  <mssgle:LineSegment
+                    End="21,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="21,30"
+                    Point2="25,30"
+                    Point3="25,34" />
+                  <mssgle:LineSegment
+                    End="25,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AINC.Paths[ODBC Source Output6]"
+          TopLeft="1277.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-46,60"
+              Start="0,0"
+              End="-46,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-42,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-42,30"
+                    Point2="-46,30"
+                    Point3="-46,34" />
+                  <mssgle:LineSegment
+                    End="-46,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AINC.Paths[ODBC Source Output5]"
           TopLeft="1817.5,47.4999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -39888,9 +39681,177 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AINC.Paths[ODBC Source Output4]"
+          TopLeft="1455.5,47.4999999999998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-66,60"
+              Start="0,0"
+              End="-66,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-62,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-62,30"
+                    Point2="-66,30"
+                    Point3="-66,34" />
+                  <mssgle:LineSegment
+                    End="-66,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AINC.Paths[ODBC Source Output3]"
+          TopLeft="235.5,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="37,60"
+              Start="0,0"
+              End="37,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
+                  <mssgle:LineSegment
+                    End="33,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="33,30"
+                    Point2="37,30"
+                    Point3="37,34" />
+                  <mssgle:LineSegment
+                    End="37,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AINC.Paths[ODBC Source Output2]"
+          TopLeft="412.5,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="30,59.9999999999999"
+              Start="0,0"
+              End="30,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.9999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.9999999999999"
+                    Point2="0,29.9999999999999"
+                    Point3="4,29.9999999999999" />
+                  <mssgle:LineSegment
+                    End="26,29.9999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="26,29.9999999999999"
+                    Point2="30,29.9999999999999"
+                    Point3="30,33.9999999999999" />
+                  <mssgle:LineSegment
+                    End="30,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AINC.Paths[ODBC Source Output1]"
+          TopLeft="1635.5,47.4999999999998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-86,60"
+              Start="0,0"
+              End="-86,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-82,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-82,30"
+                    Point2="-86,30"
+                    Point3="-86,34" />
+                  <mssgle:LineSegment
+                    End="-86,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AINC.Paths[ODBC Source Output]"
+          TopLeft="60.5,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="57,60"
+              Start="0,0"
+              End="57,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
+                  <mssgle:LineSegment
+                    End="53,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="53,30"
+                    Point2="57,30"
+                    Point3="57,34" />
+                  <mssgle:LineSegment
+                    End="57,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39924,9 +39885,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39960,9 +39919,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39996,9 +39953,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -40032,9 +39987,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -40068,9 +40021,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -40104,9 +40055,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -40140,9 +40089,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -40164,9 +40111,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -40200,9 +40145,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -40236,9 +40179,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -40272,9 +40213,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -40296,13 +40235,33 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\AINC.Paths[ODBC Source Output10]"
+          TopLeft="924.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AINC.Paths[ODBC Source Output9]"
           TopLeft="756.5,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -40332,49 +40291,24 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\AINC.Paths[ODBC Source Output9]"
-          TopLeft="60.5,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="57,60"
-              Start="0,0"
-              End="57,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="4,30" />
-                  <mssgle:LineSegment
-                    End="53,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="53,30"
-                    Point2="57,30"
-                    Point3="57,34" />
-                  <mssgle:LineSegment
-                    End="57,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\AINC\AINC_HANA">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>

@@ -12,8 +12,8 @@
   DTS:ObjectName="STAFF_EXP_HANA"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{CF23E088-3009-486C-8DD4-D1070BA96E69}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{5726E1E2-BFAA-40A1-9A94-A2CD2CFAAB66}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -16174,22 +16174,22 @@
               name="Derived Column Output"
               startId="Package\STAFF_EXP_DTL\KE.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output9]"
+              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output1]"
               endId="Package\STAFF_EXP_DTL\Union All.Inputs[Union All Input 10]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_DTL\NG.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output8]"
+              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output2]"
               endId="Package\STAFF_EXP_DTL\Union All.Inputs[Union All Input 9]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_DTL\ZA.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output7]"
+              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output3]"
               endId="Package\STAFF_EXP_DTL\Union All.Inputs[Union All Input 8]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_DTL\MW.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output6]"
+              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output4]"
               endId="Package\STAFF_EXP_DTL\Union All.Inputs[Union All Input 7]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_DTL\ETH.Outputs[Derived Column Output]" />
@@ -16199,22 +16199,22 @@
               name="Derived Column Output"
               startId="Package\STAFF_EXP_DTL\UG.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output4]"
+              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output6]"
               endId="Package\STAFF_EXP_DTL\Union All.Inputs[Union All Input 5]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_DTL\TZ.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output3]"
+              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output7]"
               endId="Package\STAFF_EXP_DTL\Union All.Inputs[Union All Input 4]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_DTL\US.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output2]"
+              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output8]"
               endId="Package\STAFF_EXP_DTL\Union All.Inputs[Union All Input 3]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_DTL\RW.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output1]"
+              refId="Package\STAFF_EXP_DTL.Paths[Derived Column Output9]"
               endId="Package\STAFF_EXP_DTL\Union All.Inputs[Union All Input 2]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_DTL\RW-TBR.Outputs[Derived Column Output]" />
@@ -16224,60 +16224,60 @@
               name="Derived Column Output"
               startId="Package\STAFF_EXP_DTL\BI.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output]"
-              endId="Package\STAFF_EXP_DTL\KE.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\STAFF_EXP_DTL\Kenya.Outputs[ODBC Source Output]" />
-            <path
               refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output9]"
-              endId="Package\STAFF_EXP_DTL\US.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_DTL\RW.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_DTL\USA.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_DTL\Rwanda.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output8]"
-              endId="Package\STAFF_EXP_DTL\BI.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_DTL\RW-TBR.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_DTL\Burundi.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_DTL\Tubura.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output7]"
-              endId="Package\STAFF_EXP_DTL\NG.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_DTL\UG.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_DTL\Nigeria.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_DTL\Uganda.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output6]"
-              endId="Package\STAFF_EXP_DTL\ZA.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_DTL\ETH.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_DTL\Zambia.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_DTL\Ethiopia.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output5]"
               endId="Package\STAFF_EXP_DTL\MW.Inputs[Derived Column Input]"
               name="ODBC Source Output"
               startId="Package\STAFF_EXP_DTL\Malawi.Outputs[ODBC Source Output]" />
             <path
-              refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output4]"
-              endId="Package\STAFF_EXP_DTL\ETH.Inputs[Derived Column Input]"
+              refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output]"
+              endId="Package\STAFF_EXP_DTL\KE.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_DTL\Ethiopia.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_DTL\Kenya.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output3]"
-              endId="Package\STAFF_EXP_DTL\UG.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_DTL\NG.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_DTL\Uganda.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_DTL\Nigeria.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output2]"
-              endId="Package\STAFF_EXP_DTL\RW-TBR.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_DTL\BI.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_DTL\Tubura.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_DTL\Burundi.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output1]"
-              endId="Package\STAFF_EXP_DTL\RW.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_DTL\US.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_DTL\Rwanda.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_DTL\USA.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output10]"
               endId="Package\STAFF_EXP_DTL\TZ.Inputs[Derived Column Input]"
               name="ODBC Source Output"
               startId="Package\STAFF_EXP_DTL\Tanzania.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\STAFF_EXP_DTL.Paths[ODBC Source Output4]"
+              endId="Package\STAFF_EXP_DTL\ZA.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\STAFF_EXP_DTL\Zambia.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_DTL.Paths[Union All Output 1]"
               endId="Package\STAFF_EXP_DTL\STAFF_EXP_DTL_HANA.Inputs[OLE DB Destination Input]"
@@ -31261,22 +31261,22 @@
               name="Derived Column Output"
               startId="Package\STAFF_EXP_HDR\KE.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output9]"
+              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output1]"
               endId="Package\STAFF_EXP_HDR\Union All.Inputs[Union All Input 10]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_HDR\NG.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output8]"
+              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output2]"
               endId="Package\STAFF_EXP_HDR\Union All.Inputs[Union All Input 9]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_HDR\ZA.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output7]"
+              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output3]"
               endId="Package\STAFF_EXP_HDR\Union All.Inputs[Union All Input 8]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_HDR\MW.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output6]"
+              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output4]"
               endId="Package\STAFF_EXP_HDR\Union All.Inputs[Union All Input 7]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_HDR\ETH.Outputs[Derived Column Output]" />
@@ -31286,22 +31286,22 @@
               name="Derived Column Output"
               startId="Package\STAFF_EXP_HDR\UG.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output4]"
+              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output6]"
               endId="Package\STAFF_EXP_HDR\Union All.Inputs[Union All Input 5]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_HDR\RW.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output3]"
+              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output7]"
               endId="Package\STAFF_EXP_HDR\Union All.Inputs[Union All Input 4]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_HDR\TZ.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output2]"
+              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output8]"
               endId="Package\STAFF_EXP_HDR\Union All.Inputs[Union All Input 3]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_HDR\US.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output1]"
+              refId="Package\STAFF_EXP_HDR.Paths[Derived Column Output9]"
               endId="Package\STAFF_EXP_HDR\Union All.Inputs[Union All Input 2]"
               name="Derived Column Output"
               startId="Package\STAFF_EXP_HDR\RW-TBR.Outputs[Derived Column Output]" />
@@ -31311,60 +31311,60 @@
               name="Derived Column Output"
               startId="Package\STAFF_EXP_HDR\BI.Outputs[Derived Column Output]" />
             <path
-              refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output]"
-              endId="Package\STAFF_EXP_HDR\TZ.Inputs[Derived Column Input]"
-              name="ODBC Source Output"
-              startId="Package\STAFF_EXP_HDR\Tanzania.Outputs[ODBC Source Output]" />
-            <path
               refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output9]"
-              endId="Package\STAFF_EXP_HDR\BI.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_HDR\KE.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_HDR\Burundi.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_HDR\Kenya.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output8]"
-              endId="Package\STAFF_EXP_HDR\NG.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_HDR\RW.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_HDR\Nigeria.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_HDR\Rwanda.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output7]"
-              endId="Package\STAFF_EXP_HDR\ZA.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_HDR\RW-TBR.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_HDR\Zambia.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_HDR\Tubura.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output6]"
-              endId="Package\STAFF_EXP_HDR\MW.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_HDR\UG.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_HDR\Malawi.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_HDR\Uganda.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output5]"
               endId="Package\STAFF_EXP_HDR\ETH.Inputs[Derived Column Input]"
               name="ODBC Source Output"
               startId="Package\STAFF_EXP_HDR\Ethiopia.Outputs[ODBC Source Output]" />
             <path
-              refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output4]"
-              endId="Package\STAFF_EXP_HDR\UG.Inputs[Derived Column Input]"
+              refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output]"
+              endId="Package\STAFF_EXP_HDR\TZ.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_HDR\Uganda.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_HDR\Tanzania.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output3]"
-              endId="Package\STAFF_EXP_HDR\RW-TBR.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_HDR\ZA.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_HDR\Tubura.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_HDR\Zambia.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output2]"
-              endId="Package\STAFF_EXP_HDR\RW.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_HDR\NG.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_HDR\Rwanda.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_HDR\Nigeria.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output1]"
-              endId="Package\STAFF_EXP_HDR\KE.Inputs[Derived Column Input]"
+              endId="Package\STAFF_EXP_HDR\BI.Inputs[Derived Column Input]"
               name="ODBC Source Output"
-              startId="Package\STAFF_EXP_HDR\Kenya.Outputs[ODBC Source Output]" />
+              startId="Package\STAFF_EXP_HDR\Burundi.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output10]"
               endId="Package\STAFF_EXP_HDR\US.Inputs[Derived Column Input]"
               name="ODBC Source Output"
               startId="Package\STAFF_EXP_HDR\USA.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\STAFF_EXP_HDR.Paths[ODBC Source Output4]"
+              endId="Package\STAFF_EXP_HDR\MW.Inputs[Derived Column Input]"
+              name="ODBC Source Output"
+              startId="Package\STAFF_EXP_HDR\Malawi.Outputs[ODBC Source Output]" />
             <path
               refId="Package\STAFF_EXP_HDR.Paths[Union All Output 1]"
               endId="Package\STAFF_EXP_HDR\STAFF_EXP_HDR_HANA.Inputs[OLE DB Destination Input]"
@@ -31486,49 +31486,57 @@
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="97,42"
-          Id="Package\STAFF_EXP_DTL\RW"
-          TopLeft="1501,107.5" />
+          Size="123,42"
+          Id="Package\STAFF_EXP_DTL\RW-TBR"
+          TopLeft="381,107.5" />
         <NodeLayout
-          Size="110,42"
-          Id="Package\STAFF_EXP_DTL\Kenya"
-          TopLeft="5.5,5.5" />
+          Size="95,42"
+          Id="Package\STAFF_EXP_DTL\NG"
+          TopLeft="565,107.5" />
         <NodeLayout
           Size="93,42"
           Id="Package\STAFF_EXP_DTL\ZA"
           TopLeft="1185,107.5" />
         <NodeLayout
-          Size="99,42"
-          Id="Package\STAFF_EXP_DTL\MW"
-          TopLeft="875,107.5" />
+          Size="110,42"
+          Id="Package\STAFF_EXP_DTL\Kenya"
+          TopLeft="5.5,5.5" />
         <NodeLayout
           Size="101,42"
           Id="Package\STAFF_EXP_DTL\ETH"
           TopLeft="1339,107.5" />
         <NodeLayout
+          Size="116,42"
+          Id="Package\STAFF_EXP_DTL\Zambia"
+          TopLeft="1219.5,5.49999999999989" />
+        <NodeLayout
           Size="118,42"
           Id="Package\STAFF_EXP_DTL\Uganda"
           TopLeft="176.5,5.5" />
-        <NodeLayout
-          Size="94,42"
-          Id="Package\STAFF_EXP_DTL\KE"
-          TopLeft="70.5,107.5" />
         <NodeLayout
           Size="114,42"
           Id="Package\STAFF_EXP_DTL\Tubura"
           TopLeft="355.5,5.5" />
         <NodeLayout
-          Size="114,42"
-          Id="Package\STAFF_EXP_DTL\Nigeria"
-          TopLeft="530.5,5.49999999999989" />
+          Size="205,42"
+          Id="Package\STAFF_EXP_DTL\STAFF_EXP_DTL_HANA"
+          TopLeft="822,311.5" />
+        <NodeLayout
+          Size="97,42"
+          Id="Package\STAFF_EXP_DTL\RW"
+          TopLeft="1501,107.5" />
+        <NodeLayout
+          Size="99,42"
+          Id="Package\STAFF_EXP_DTL\MW"
+          TopLeft="875,107.5" />
+        <NodeLayout
+          Size="94,42"
+          Id="Package\STAFF_EXP_DTL\KE"
+          TopLeft="70.5,107.5" />
         <NodeLayout
           Size="102,42"
           Id="Package\STAFF_EXP_DTL\USA"
           TopLeft="705.5,5.49999999999989" />
-        <NodeLayout
-          Size="113,42"
-          Id="Package\STAFF_EXP_DTL\Malawi"
-          TopLeft="868,5.49999999999989" />
         <NodeLayout
           Size="117,42"
           Id="Package\STAFF_EXP_DTL\Burundi"
@@ -31538,37 +31546,233 @@
           Id="Package\STAFF_EXP_DTL\UG"
           TopLeft="225,107.5" />
         <NodeLayout
-          Size="123,42"
-          Id="Package\STAFF_EXP_DTL\RW-TBR"
-          TopLeft="381,107.5" />
-        <NodeLayout
-          Size="116,42"
-          Id="Package\STAFF_EXP_DTL\Zambia"
-          TopLeft="1219.5,5.49999999999989" />
-        <NodeLayout
-          Size="95,42"
-          Id="Package\STAFF_EXP_DTL\NG"
-          TopLeft="565,107.5" />
-        <NodeLayout
-          Size="119,42"
-          Id="Package\STAFF_EXP_DTL\Ethiopia"
-          TopLeft="1396,5.49999999999977" />
-        <NodeLayout
           Size="119,42"
           Id="Package\STAFF_EXP_DTL\Rwanda"
           TopLeft="1576,5.49999999999977" />
+        <NodeLayout
+          Size="114,42"
+          Id="Package\STAFF_EXP_DTL\Nigeria"
+          TopLeft="530.5,5.49999999999989" />
+        <NodeLayout
+          Size="113,42"
+          Id="Package\STAFF_EXP_DTL\Malawi"
+          TopLeft="868,5.49999999999989" />
+        <NodeLayout
+          Size="124,42"
+          Id="Package\STAFF_EXP_DTL\Tanzania"
+          TopLeft="1755.5,5.49999999999977" />
         <NodeLayout
           Size="94,42"
           Id="Package\STAFF_EXP_DTL\US"
           TopLeft="720.5,107.5" />
         <NodeLayout
+          Size="119,42"
+          Id="Package\STAFF_EXP_DTL\Ethiopia"
+          TopLeft="1396,5.49999999999977" />
+        <NodeLayout
           Size="89,42"
           Id="Package\STAFF_EXP_DTL\BI"
           TopLeft="1035,107.5" />
         <NodeLayout
+          Size="123,42"
+          Id="Package\STAFF_EXP_DTL\Union All"
+          TopLeft="863,209.5" />
+        <NodeLayout
           Size="92,42"
           Id="Package\STAFF_EXP_DTL\TZ"
           TopLeft="1658.5,107.5" />
+        <EdgeLayout
+          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output6]"
+          TopLeft="1455.5,47.4999999999998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-66,60"
+              Start="0,0"
+              End="-66,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-62,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-62,30"
+                    Point2="-66,30"
+                    Point3="-66,34" />
+                  <mssgle:LineSegment
+                    End="-66,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output5]"
+          TopLeft="924.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output4]"
+          TopLeft="1277.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-46,60"
+              Start="0,0"
+              End="-46,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-42,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-42,30"
+                    Point2="-46,30"
+                    Point3="-46,34" />
+                  <mssgle:LineSegment
+                    End="-46,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output3]"
+          TopLeft="587.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="25,60"
+              Start="0,0"
+              End="25,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
+                  <mssgle:LineSegment
+                    End="21,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="21,30"
+                    Point2="25,30"
+                    Point3="25,34" />
+                  <mssgle:LineSegment
+                    End="25,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output2]"
+          TopLeft="1100.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-21,60"
+              Start="0,0"
+              End="-21,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-17,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-17,30"
+                    Point2="-21,30"
+                    Point3="-21,34" />
+                  <mssgle:LineSegment
+                    End="-21,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output1]"
+          TopLeft="756.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="11,60"
+              Start="0,0"
+              End="11,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
+                  <mssgle:LineSegment
+                    End="7,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="7,30"
+                    Point2="11,30"
+                    Point3="11,34" />
+                  <mssgle:LineSegment
+                    End="11,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output]"
           TopLeft="60.5,47.5">
@@ -31604,31 +31808,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output9]"
-          TopLeft="756.5,47.4999999999999">
+          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output10]"
+          TopLeft="1079.5,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="11,60"
+              EndConnector="-145.416666666667,60"
               Start="0,0"
-              End="11,52.5">
+              End="-145.416666666667,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26" />
+                    End="0,28.5349008082293" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="4,30" />
+                    Point1="0,28.5349008082293"
+                    Point2="0,32.5349008082293"
+                    Point3="-4,32.5349008082293" />
                   <mssgle:LineSegment
-                    End="7,30" />
+                    End="-141.416666666667,32.5349008082293" />
                   <mssgle:CubicBezierSegment
-                    Point1="7,30"
-                    Point2="11,30"
-                    Point3="11,34" />
+                    Point1="-141.416666666667,32.5349008082293"
+                    Point2="-145.416666666667,32.5349008082293"
+                    Point3="-145.416666666667,36.5349008082293" />
                   <mssgle:LineSegment
-                    End="11,52.5" />
+                    End="-145.416666666667,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -31638,343 +31842,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output8]"
-          TopLeft="1100.5,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-21,60"
-              Start="0,0"
-              End="-21,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-17,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-17,30"
-                    Point2="-21,30"
-                    Point3="-21,34" />
-                  <mssgle:LineSegment
-                    End="-21,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output7]"
-          TopLeft="587.5,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="25,60"
-              Start="0,0"
-              End="25,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="4,30" />
-                  <mssgle:LineSegment
-                    End="21,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="21,30"
-                    Point2="25,30"
-                    Point3="25,34" />
-                  <mssgle:LineSegment
-                    End="25,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output6]"
-          TopLeft="1277.5,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-46,60"
-              Start="0,0"
-              End="-46,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-42,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-42,30"
-                    Point2="-46,30"
-                    Point3="-46,34" />
-                  <mssgle:LineSegment
-                    End="-46,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output5]"
-          TopLeft="924.5,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output4]"
-          TopLeft="1455.5,47.4999999999998">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-66,60"
-              Start="0,0"
-              End="-66,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-62,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-62,30"
-                    Point2="-66,30"
-                    Point3="-66,34" />
-                  <mssgle:LineSegment
-                    End="-66,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output3]"
-          TopLeft="235.5,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="37,60"
-              Start="0,0"
-              End="37,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="4,30" />
-                  <mssgle:LineSegment
-                    End="33,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="33,30"
-                    Point2="37,30"
-                    Point3="37,34" />
-                  <mssgle:LineSegment
-                    End="37,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output2]"
-          TopLeft="412.5,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="30,59.9999999999999"
-              Start="0,0"
-              End="30,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.9999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.9999999999999"
-                    Point2="0,29.9999999999999"
-                    Point3="4,29.9999999999999" />
-                  <mssgle:LineSegment
-                    End="26,29.9999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="26,29.9999999999999"
-                    Point2="30,29.9999999999999"
-                    Point3="30,33.9999999999999" />
-                  <mssgle:LineSegment
-                    End="30,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output1]"
-          TopLeft="1635.5,47.4999999999998">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-86,60"
-              Start="0,0"
-              End="-86,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-82,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-82,30"
-                    Point2="-86,30"
-                    Point3="-86,34" />
-                  <mssgle:LineSegment
-                    End="-86,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="124,42"
-          Id="Package\STAFF_EXP_DTL\Tanzania"
-          TopLeft="1755.5,5.49999999999977" />
-        <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output10]"
-          TopLeft="1817.5,47.4999999999998">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-113,60"
-              Start="0,0"
-              End="-113,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-109,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-109,30"
-                    Point2="-113,30"
-                    Point3="-113,34" />
-                  <mssgle:LineSegment
-                    End="-113,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="123,42"
-          Id="Package\STAFF_EXP_DTL\Union All"
-          TopLeft="863,209.5" />
-        <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output]"
-          TopLeft="117.5,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="759.083333333333,59.9999999999999"
-              Start="0,0"
-              End="759.083333333333,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.1453940066592" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,45.1453940066592"
-                    Point2="0,49.1453940066592"
-                    Point3="4,49.1453940066592" />
-                  <mssgle:LineSegment
-                    End="755.083333333333,49.1453940066592" />
-                  <mssgle:CubicBezierSegment
-                    Point1="755.083333333333,49.1453940066592"
-                    Point2="759.083333333333,49.1453940066592"
-                    Point3="759.083333333333,53.1453940066592" />
-                  <mssgle:LineSegment
-                    End="759.083333333333,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output1]"
+          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output9]"
           TopLeft="442.5,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -32008,7 +31876,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output2]"
+          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output8]"
           TopLeft="1549.5,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -32042,7 +31910,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output3]"
+          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output7]"
           TopLeft="767.5,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -32076,7 +31944,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output4]"
+          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output6]"
           TopLeft="1704.5,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -32144,7 +32012,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output6]"
+          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output4]"
           TopLeft="1389.5,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -32178,7 +32046,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output7]"
+          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output3]"
           TopLeft="924.5,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -32200,7 +32068,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output8]"
+          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output2]"
           TopLeft="1231.5,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -32234,7 +32102,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output9]"
+          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output1]"
           TopLeft="612.5,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -32268,31 +32136,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output10]"
-          TopLeft="1079.5,149.5">
+          Id="Package\STAFF_EXP_DTL.Paths[Derived Column Output]"
+          TopLeft="117.5,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-145.416666666667,60"
+              EndConnector="759.083333333333,59.9999999999999"
               Start="0,0"
-              End="-145.416666666667,52.5">
+              End="759.083333333333,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.5349008082293" />
+                    End="0,45.1453940066592" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,28.5349008082293"
-                    Point2="0,32.5349008082293"
-                    Point3="-4,32.5349008082293" />
+                    Point1="0,45.1453940066592"
+                    Point2="0,49.1453940066592"
+                    Point3="4,49.1453940066592" />
                   <mssgle:LineSegment
-                    End="-141.416666666667,32.5349008082293" />
+                    End="755.083333333333,49.1453940066592" />
                   <mssgle:CubicBezierSegment
-                    Point1="-141.416666666667,32.5349008082293"
-                    Point2="-145.416666666667,32.5349008082293"
-                    Point3="-145.416666666667,36.5349008082293" />
+                    Point1="755.083333333333,49.1453940066592"
+                    Point2="759.083333333333,49.1453940066592"
+                    Point3="759.083333333333,53.1453940066592" />
                   <mssgle:LineSegment
-                    End="-145.416666666667,52.5" />
+                    End="759.083333333333,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -32301,10 +32169,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="205,42"
-          Id="Package\STAFF_EXP_DTL\STAFF_EXP_DTL_HANA"
-          TopLeft="822,311.5" />
         <EdgeLayout
           Id="Package\STAFF_EXP_DTL.Paths[Union All Output 1]"
           TopLeft="924.5,251.5">
@@ -32327,11 +32191,155 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output10]"
+          TopLeft="1817.5,47.4999999999998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-113,60"
+              Start="0,0"
+              End="-113,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-109,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-109,30"
+                    Point2="-113,30"
+                    Point3="-113,34" />
+                  <mssgle:LineSegment
+                    End="-113,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output9]"
+          TopLeft="1635.5,47.4999999999998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-86,60"
+              Start="0,0"
+              End="-86,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-82,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-82,30"
+                    Point2="-86,30"
+                    Point3="-86,34" />
+                  <mssgle:LineSegment
+                    End="-86,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output8]"
+          TopLeft="412.5,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="30,59.9999999999999"
+              Start="0,0"
+              End="30,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.9999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.9999999999999"
+                    Point2="0,29.9999999999999"
+                    Point3="4,29.9999999999999" />
+                  <mssgle:LineSegment
+                    End="26,29.9999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="26,29.9999999999999"
+                    Point2="30,29.9999999999999"
+                    Point3="30,33.9999999999999" />
+                  <mssgle:LineSegment
+                    End="30,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_DTL.Paths[ODBC Source Output7]"
+          TopLeft="235.5,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="37,60"
+              Start="0,0"
+              End="37,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
+                  <mssgle:LineSegment
+                    End="33,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="33,30"
+                    Point2="37,30"
+                    Point3="37,34" />
+                  <mssgle:LineSegment
+                    End="37,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\STAFF_EXP_DTL\Kenya">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\STAFF_EXP_DTL\Zambia">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -32355,23 +32363,20 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_DTL\Nigeria">
+    design-time-name="Package\STAFF_EXP_DTL\STAFF_EXP_DTL_HANA">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\STAFF_EXP_DTL\USA">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_DTL\Malawi">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -32387,7 +32392,31 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_DTL\Zambia">
+    design-time-name="Package\STAFF_EXP_DTL\Rwanda">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\STAFF_EXP_DTL\Nigeria">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\STAFF_EXP_DTL\Malawi">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\STAFF_EXP_DTL\Tanzania">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -32402,109 +32431,153 @@
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_DTL\Rwanda">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\STAFF_EXP_HDR">
     <LayoutInfo>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="99,42"
-          Id="Package\STAFF_EXP_HDR\MW"
-          TopLeft="104.5,107.5" />
-        <NodeLayout
-          Size="92,42"
-          Id="Package\STAFF_EXP_HDR\TZ"
-          TopLeft="1692,107.5" />
-        <NodeLayout
-          Size="95,42"
-          Id="Package\STAFF_EXP_HDR\UG"
-          TopLeft="1374.5,107.5" />
-        <NodeLayout
-          Size="101,42"
-          Id="Package\STAFF_EXP_HDR\ETH"
-          TopLeft="1530.5,107.5" />
-        <NodeLayout
-          Size="113,42"
-          Id="Package\STAFF_EXP_HDR\Malawi"
-          TopLeft="5.5,5.5" />
-        <NodeLayout
-          Size="119,42"
-          Id="Package\STAFF_EXP_HDR\Rwanda"
-          TopLeft="179.5,5.5" />
-        <NodeLayout
-          Size="114,42"
-          Id="Package\STAFF_EXP_HDR\Nigeria"
-          TopLeft="359,5.5" />
-        <NodeLayout
-          Size="93,42"
-          Id="Package\STAFF_EXP_HDR\ZA"
-          TopLeft="732.5,107.5" />
-        <NodeLayout
-          Size="110,42"
-          Id="Package\STAFF_EXP_HDR\Kenya"
-          TopLeft="534,5.49999999999989" />
-        <NodeLayout
-          Size="116,42"
-          Id="Package\STAFF_EXP_HDR\Zambia"
-          TopLeft="705,5.49999999999989" />
-        <NodeLayout
-          Size="94,42"
-          Id="Package\STAFF_EXP_HDR\US"
-          TopLeft="886,107.5" />
-        <NodeLayout
-          Size="102,42"
-          Id="Package\STAFF_EXP_HDR\USA"
-          TopLeft="882,5.49999999999989" />
-        <NodeLayout
-          Size="123,42"
-          Id="Package\STAFF_EXP_HDR\RW-TBR"
-          TopLeft="1190.5,107.5" />
-        <NodeLayout
           Size="117,42"
           Id="Package\STAFF_EXP_HDR\Burundi"
           TopLeft="1044.5,5.49999999999989" />
         <NodeLayout
           Size="95,42"
-          Id="Package\STAFF_EXP_HDR\NG"
-          TopLeft="422.5,107.5" />
-        <NodeLayout
-          Size="114,42"
-          Id="Package\STAFF_EXP_HDR\Tubura"
-          TopLeft="1222,5.49999999999989" />
+          Id="Package\STAFF_EXP_HDR\UG"
+          TopLeft="1374.5,107.5" />
         <NodeLayout
           Size="94,42"
-          Id="Package\STAFF_EXP_HDR\KE"
-          TopLeft="578,107.5" />
+          Id="Package\STAFF_EXP_HDR\US"
+          TopLeft="886,107.5" />
         <NodeLayout
-          Size="118,42"
-          Id="Package\STAFF_EXP_HDR\Uganda"
-          TopLeft="1397,5.49999999999977" />
-        <NodeLayout
-          Size="119,42"
-          Id="Package\STAFF_EXP_HDR\Ethiopia"
-          TopLeft="1575.5,5.49999999999977" />
+          Size="99,42"
+          Id="Package\STAFF_EXP_HDR\MW"
+          TopLeft="104.5,107.5" />
         <NodeLayout
           Size="97,42"
           Id="Package\STAFF_EXP_HDR\RW"
           TopLeft="264.5,107.5" />
         <NodeLayout
-          Size="89,42"
-          Id="Package\STAFF_EXP_HDR\BI"
-          TopLeft="1040.5,107.5" />
+          Size="208,42"
+          Id="Package\STAFF_EXP_HDR\STAFF_EXP_HDR_HANA"
+          TopLeft="829,311.5" />
+        <NodeLayout
+          Size="101,42"
+          Id="Package\STAFF_EXP_HDR\ETH"
+          TopLeft="1530.5,107.5" />
+        <NodeLayout
+          Size="92,42"
+          Id="Package\STAFF_EXP_HDR\TZ"
+          TopLeft="1692,107.5" />
+        <NodeLayout
+          Size="118,42"
+          Id="Package\STAFF_EXP_HDR\Uganda"
+          TopLeft="1397,5.49999999999977" />
+        <NodeLayout
+          Size="113,42"
+          Id="Package\STAFF_EXP_HDR\Malawi"
+          TopLeft="5.5,5.5" />
+        <NodeLayout
+          Size="123,42"
+          Id="Package\STAFF_EXP_HDR\Union All"
+          TopLeft="871.5,209.5" />
+        <NodeLayout
+          Size="114,42"
+          Id="Package\STAFF_EXP_HDR\Nigeria"
+          TopLeft="359,5.5" />
+        <NodeLayout
+          Size="114,42"
+          Id="Package\STAFF_EXP_HDR\Tubura"
+          TopLeft="1222,5.49999999999989" />
+        <NodeLayout
+          Size="119,42"
+          Id="Package\STAFF_EXP_HDR\Rwanda"
+          TopLeft="179.5,5.5" />
+        <NodeLayout
+          Size="110,42"
+          Id="Package\STAFF_EXP_HDR\Kenya"
+          TopLeft="534,5.49999999999989" />
+        <NodeLayout
+          Size="94,42"
+          Id="Package\STAFF_EXP_HDR\KE"
+          TopLeft="578,107.5" />
+        <NodeLayout
+          Size="93,42"
+          Id="Package\STAFF_EXP_HDR\ZA"
+          TopLeft="732.5,107.5" />
+        <NodeLayout
+          Size="102,42"
+          Id="Package\STAFF_EXP_HDR\USA"
+          TopLeft="882,5.49999999999989" />
         <NodeLayout
           Size="124,42"
           Id="Package\STAFF_EXP_HDR\Tanzania"
           TopLeft="1755,5.49999999999977" />
+        <NodeLayout
+          Size="95,42"
+          Id="Package\STAFF_EXP_HDR\NG"
+          TopLeft="422.5,107.5" />
+        <NodeLayout
+          Size="123,42"
+          Id="Package\STAFF_EXP_HDR\RW-TBR"
+          TopLeft="1190.5,107.5" />
+        <NodeLayout
+          Size="89,42"
+          Id="Package\STAFF_EXP_HDR\BI"
+          TopLeft="1040.5,107.5" />
+        <NodeLayout
+          Size="116,42"
+          Id="Package\STAFF_EXP_HDR\Zambia"
+          TopLeft="705,5.49999999999989" />
+        <NodeLayout
+          Size="119,42"
+          Id="Package\STAFF_EXP_HDR\Ethiopia"
+          TopLeft="1575.5,5.49999999999977" />
         <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output1]"
+          Id="Package\STAFF_EXP_HDR.Paths[Union All Output 1]"
+          TopLeft="933,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output10]"
+          TopLeft="933,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output9]"
           TopLeft="589,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -32538,121 +32611,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output]"
-          TopLeft="1817,47.4999999999998">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-79,60"
-              Start="0,0"
-              End="-79,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-75,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-75,30"
-                    Point2="-79,30"
-                    Point3="-79,34" />
-                  <mssgle:LineSegment
-                    End="-79,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output10]"
-          TopLeft="933,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output9]"
-          TopLeft="1103,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-18,60"
-              Start="0,0"
-              End="-18,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-14,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-14,30"
-                    Point2="-18,30"
-                    Point3="-18,34" />
-                  <mssgle:LineSegment
-                    End="-18,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output8]"
-          TopLeft="416,47.5">
+          TopLeft="239,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="54,59.9999999999999"
+              EndConnector="74,60"
               Start="0,0"
-              End="54,52.4999999999999">
+              End="74,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.9999999999999" />
+                    End="0,26" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,25.9999999999999"
-                    Point2="0,29.9999999999999"
-                    Point3="4,29.9999999999999" />
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
                   <mssgle:LineSegment
-                    End="50,29.9999999999999" />
+                    End="70,30" />
                   <mssgle:CubicBezierSegment
-                    Point1="50,29.9999999999999"
-                    Point2="54,29.9999999999999"
-                    Point3="54,33.9999999999999" />
+                    Point1="70,30"
+                    Point2="74,30"
+                    Point3="74,34" />
                   <mssgle:LineSegment
-                    End="54,52.4999999999999" />
+                    End="74,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -32663,13 +32646,13 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output7]"
-          TopLeft="763,47.4999999999999">
+          TopLeft="1279,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="16,60"
+              EndConnector="-27,60"
               Start="0,0"
-              End="16,52.5">
+              End="-27,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -32678,15 +32661,15 @@
                   <mssgle:CubicBezierSegment
                     Point1="0,26"
                     Point2="0,30"
-                    Point3="4,30" />
+                    Point3="-4,30" />
                   <mssgle:LineSegment
-                    End="12,30" />
+                    End="-23,30" />
                   <mssgle:CubicBezierSegment
-                    Point1="12,30"
-                    Point2="16,30"
-                    Point3="16,34" />
+                    Point1="-23,30"
+                    Point2="-27,30"
+                    Point3="-27,34" />
                   <mssgle:LineSegment
-                    End="16,52.5" />
+                    End="-27,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -32697,13 +32680,13 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output6]"
-          TopLeft="62,47.5">
+          TopLeft="1456,47.4999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="92,60"
+              EndConnector="-34,60"
               Start="0,0"
-              End="92,52.5">
+              End="-34,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -32712,15 +32695,15 @@
                   <mssgle:CubicBezierSegment
                     Point1="0,26"
                     Point2="0,30"
-                    Point3="4,30" />
+                    Point3="-4,30" />
                   <mssgle:LineSegment
-                    End="88,30" />
+                    End="-30,30" />
                   <mssgle:CubicBezierSegment
-                    Point1="88,30"
-                    Point2="92,30"
-                    Point3="92,34" />
+                    Point1="-30,30"
+                    Point2="-34,30"
+                    Point3="-34,34" />
                   <mssgle:LineSegment
-                    End="92,52.5" />
+                    End="-34,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -32765,81 +32748,13 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output4]"
-          TopLeft="1456,47.4999999999998">
+          TopLeft="62,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-34,60"
+              EndConnector="92,60"
               Start="0,0"
-              End="-34,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-30,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-30,30"
-                    Point2="-34,30"
-                    Point3="-34,34" />
-                  <mssgle:LineSegment
-                    End="-34,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output3]"
-          TopLeft="1279,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-27,60"
-              Start="0,0"
-              End="-27,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-23,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-23,30"
-                    Point2="-27,30"
-                    Point3="-27,34" />
-                  <mssgle:LineSegment
-                    End="-27,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output2]"
-          TopLeft="239,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="74,60"
-              Start="0,0"
-              End="74,52.5">
+              End="92,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -32850,13 +32765,13 @@
                     Point2="0,30"
                     Point3="4,30" />
                   <mssgle:LineSegment
-                    End="70,30" />
+                    End="88,30" />
                   <mssgle:CubicBezierSegment
-                    Point1="70,30"
-                    Point2="74,30"
-                    Point3="74,34" />
+                    Point1="88,30"
+                    Point2="92,30"
+                    Point3="92,34" />
                   <mssgle:LineSegment
-                    End="74,52.5" />
+                    End="92,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -32865,36 +32780,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="123,42"
-          Id="Package\STAFF_EXP_HDR\Union All"
-          TopLeft="871.5,209.5" />
         <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output]"
-          TopLeft="625,149.5">
+          Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output3]"
+          TopLeft="763,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="288.833333333333,60"
+              EndConnector="16,60"
               Start="0,0"
-              End="288.833333333333,52.5">
+              End="16,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.53772070626" />
+                    End="0,26" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.53772070626"
-                    Point2="0,35.53772070626"
-                    Point3="4,35.53772070626" />
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
                   <mssgle:LineSegment
-                    End="284.833333333333,35.53772070626" />
+                    End="12,30" />
                   <mssgle:CubicBezierSegment
-                    Point1="284.833333333333,35.53772070626"
-                    Point2="288.833333333333,35.53772070626"
-                    Point3="288.833333333333,39.53772070626" />
+                    Point1="12,30"
+                    Point2="16,30"
+                    Point3="16,34" />
                   <mssgle:LineSegment
-                    End="288.833333333333,52.5" />
+                    End="16,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -32904,7 +32815,143 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output1]"
+          Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output2]"
+          TopLeft="416,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="54,59.9999999999999"
+              Start="0,0"
+              End="54,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.9999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.9999999999999"
+                    Point2="0,29.9999999999999"
+                    Point3="4,29.9999999999999" />
+                  <mssgle:LineSegment
+                    End="50,29.9999999999999" />
+                  <mssgle:CubicBezierSegment
+                    Point1="50,29.9999999999999"
+                    Point2="54,29.9999999999999"
+                    Point3="54,33.9999999999999" />
+                  <mssgle:LineSegment
+                    End="54,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output1]"
+          TopLeft="1103,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-18,60"
+              Start="0,0"
+              End="-18,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-14,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-14,30"
+                    Point2="-18,30"
+                    Point3="-18,34" />
+                  <mssgle:LineSegment
+                    End="-18,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_HDR.Paths[ODBC Source Output]"
+          TopLeft="1817,47.4999999999998">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-79,60"
+              Start="0,0"
+              End="-79,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-75,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-75,30"
+                    Point2="-79,30"
+                    Point3="-79,34" />
+                  <mssgle:LineSegment
+                    End="-79,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output10]"
+          TopLeft="1085,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-142.416666666667,60"
+              Start="0,0"
+              End="-142.416666666667,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.5349008082293" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28.5349008082293"
+                    Point2="0,32.5349008082293"
+                    Point3="-4,32.5349008082293" />
+                  <mssgle:LineSegment
+                    End="-138.416666666667,32.5349008082293" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-138.416666666667,32.5349008082293"
+                    Point2="-142.416666666667,32.5349008082293"
+                    Point3="-142.416666666667,36.5349008082293" />
+                  <mssgle:LineSegment
+                    End="-142.416666666667,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output9]"
           TopLeft="1252,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -32938,7 +32985,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output2]"
+          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output8]"
           TopLeft="933,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -32960,7 +33007,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output3]"
+          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output7]"
           TopLeft="1738,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -32994,7 +33041,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output4]"
+          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output6]"
           TopLeft="313,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -33062,7 +33109,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output6]"
+          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output4]"
           TopLeft="1581,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -33096,7 +33143,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output7]"
+          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output3]"
           TopLeft="154,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -33130,7 +33177,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output8]"
+          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output2]"
           TopLeft="779,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -33164,7 +33211,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output9]"
+          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output1]"
           TopLeft="470,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -33198,57 +33245,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output10]"
-          TopLeft="1085,149.5">
+          Id="Package\STAFF_EXP_HDR.Paths[Derived Column Output]"
+          TopLeft="625,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-142.416666666667,60"
+              EndConnector="288.833333333333,60"
               Start="0,0"
-              End="-142.416666666667,52.5">
+              End="288.833333333333,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.5349008082293" />
+                    End="0,31.53772070626" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,28.5349008082293"
-                    Point2="0,32.5349008082293"
-                    Point3="-4,32.5349008082293" />
+                    Point1="0,31.53772070626"
+                    Point2="0,35.53772070626"
+                    Point3="4,35.53772070626" />
                   <mssgle:LineSegment
-                    End="-138.416666666667,32.5349008082293" />
+                    End="284.833333333333,35.53772070626" />
                   <mssgle:CubicBezierSegment
-                    Point1="-138.416666666667,32.5349008082293"
-                    Point2="-142.416666666667,32.5349008082293"
-                    Point3="-142.416666666667,36.5349008082293" />
+                    Point1="284.833333333333,35.53772070626"
+                    Point2="288.833333333333,35.53772070626"
+                    Point3="288.833333333333,39.53772070626" />
                   <mssgle:LineSegment
-                    End="-142.416666666667,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="208,42"
-          Id="Package\STAFF_EXP_HDR\STAFF_EXP_HDR_HANA"
-          TopLeft="829,311.5" />
-        <EdgeLayout
-          Id="Package\STAFF_EXP_HDR.Paths[Union All Output 1]"
-          TopLeft="933,251.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="288.833333333333,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -33261,87 +33282,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_HDR\Malawi">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_HDR\Rwanda">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_HDR\Nigeria">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_HDR\Kenya">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_HDR\Zambia">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_HDR\USA">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\STAFF_EXP_HDR\Burundi">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_HDR\Tubura">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_HDR\Uganda">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_HDR\Ethiopia">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_HDR\Tanzania">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -33362,7 +33303,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_DTL\Tanzania">
+    design-time-name="Package\STAFF_EXP_HDR\Uganda">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -33370,15 +33311,74 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\STAFF_EXP_DTL\STAFF_EXP_DTL_HANA">
+    design-time-name="Package\STAFF_EXP_HDR\Malawi">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\STAFF_EXP_HDR\Nigeria">
+    <Properties>
       <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\STAFF_EXP_HDR\Tubura">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\STAFF_EXP_HDR\Rwanda">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\STAFF_EXP_HDR\Kenya">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\STAFF_EXP_HDR\USA">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\STAFF_EXP_HDR\Tanzania">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\STAFF_EXP_HDR\Zambia">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\STAFF_EXP_HDR\Ethiopia">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

@@ -5,12 +5,12 @@
   DTS:CreationName="ODBC">
   <DTS:ObjectData>
     <DTS:ConnectionManager
-      DTS:ConnectionString="uid=DWAREHOUSE;Dsn=SAP HANA 32;servernode={saphana02.oneacrefund.org:30015};">
+      DTS:ConnectionString="uid=DWAREHOUSE;Dsn=SAP HANA 32;servernode={saphanadr.oneacrefund.org:30015};">
       <DTS:Password
         DTS:Name="pwd"
         Sensitive="1"
-        p4:Salt="DpbiKFr7gw=="
-        p4:IV="MLU5X3sov0w=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">ZKT4eKZu/OGxZbRhSNSwTr8Q1dJPOIobqSWglEs+jLhse7qy07VMZcQU80yX3oZsvqQfOGX91BnpzFJRM/EnBrIXn+7ZxyVW2sL+SKrgkx1Is8oNIP1E5CC2dQzHhsEVd+pLOUP9kOnOnwH1zb7AFOZYatF7Pg/NiItACpEhmK8=</DTS:Password>
+        p4:Salt="9B8yQior0Q=="
+        p4:IV="+OkC37878nw=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">cDP8R6uwuKSbx0XAMpSs50U7J0JwQwj2RHqwakGO+WW0wWp24j8ZpUuAQc/j+kxr86KmADvKwilDhckt5kYfHh4XHuMijbS8tMvOPTOACSyx2Oqo1rBf7sEM+RefEjgugEDLpa26UIztrC9B4N+kkrHTg+/n2g5W</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
