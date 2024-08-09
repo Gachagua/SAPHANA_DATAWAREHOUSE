@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="newndizi.oneacrefund.org,6543.OAF_SAP_DATAWAREHOUSE_Staging.BOSSIS0001"
+  DTS:DTSID="{2114EC13-88F1-4846-A8C4-4957E81A093B}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=newndizi.oneacrefund.org,6543;User ID=BOSSIS0001;Initial Catalog=OAF_SAP_DATAWAREHOUSE_Staging;Provider=SQLNCLI11.1;Application Name=SSIS-SAPHANA_DATAWAREHOUSE-{2114EC13-88F1-4846-A8C4-4957E81A093B}newndizi.oneacrefund.org,6543.OAF_SAP_DATAWAREHOUSE_Staging.B;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="2MmkiP2LwQ=="
+        p4:IV="J6EnRO6f734=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">GRGXOfWnSJe1ghch4c7ZfVDMUzJVMjtSZwu4Q1P5MqpM9UHXRc/ilQ1a5o5WNr90CDqcgQ7dLKZm1BXj3CujzYHsi/pEmEcdcPQIYmdKZcByUcMwJJo+1Ac/GxXVc0AH40aUwRgAJzo6havkBrZvQnz98nYunjl2U4ny/qgi3Wg=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
