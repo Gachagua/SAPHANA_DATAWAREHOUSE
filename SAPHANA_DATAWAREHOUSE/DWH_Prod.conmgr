@@ -7,12 +7,12 @@
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=mtama.oneacrefund.org,6543;User ID=BOSSIS0001;Initial Catalog=InternalOperations;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-SAPHANA_DATAWAREHOUSE-{B2AA0ADE-D6D2-4541-9551-29B8E6827108}mtama.oneacrefund.org,6543.InternalOperations.BOSSIS0001;Auto Translate=False;">
+      DTS:ConnectionString="Data Source=newndizi.oneacrefund.org,6543;User ID=BOSSIS0001;Initial Catalog=OAF_SAP_DATAWAREHOUSE;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-SAPHANA_DATAWAREHOUSE-{B2AA0ADE-D6D2-4541-9551-29B8E6827108}mtama.oneacrefund.org,6543.InternalOperations.BOSSIS0001;">
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="u2stbfqEvg=="
-        p4:IV="r4HWuUMz8tA=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">9ijtJ08hBhNFBG6LLLEU4UPgYbJrES6wS3RrHYbGvENobbCX9ObGUMxkzwP/ZZCMhxOAsWoSrP4OH0aCF6F97zhENlKwmBKT+aOSDYFB++wRWgC2M4+y8N6BSyDacHPZ4yWXma4uHRft/wNr7llu+05yv3tXpViaJUo/qiWWGv0=</DTS:Password>
+        p4:Salt="q9bDBHlf6Q=="
+        p4:IV="M31M3YFM7rU=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">2XzM5gz0l/N6XKm12K3EdaO/kfoZpWBbt26vi2TF4dVdMytYMCblV6F15C8rg84uWxw3ZHD/xYNI7CNCJrSs9uwaRN5jJxz1b6DCLQBQtnHNcqOAlWr4nCfFjc7lxfVaSksVN4MKNgFqJ6GeZAASept/c0FuC2xz7fTBQHIQaxU=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
