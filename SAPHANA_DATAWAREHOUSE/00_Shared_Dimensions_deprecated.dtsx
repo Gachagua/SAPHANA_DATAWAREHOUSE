@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="1/12/2018 11:14:22 AM"
@@ -12,8 +12,8 @@
   DTS:ObjectName="00_Shared_Dimensions_deprecated"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="690"
-  DTS:VersionGUID="{2D08C2EF-13D8-4CB5-B7F3-4EC95FE4A1D8}">
+  DTS:VersionBuild="694"
+  DTS:VersionGUID="{A5C256E9-37B3-44F6-BC6A-9956D9FD7BC7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -3659,7 +3659,7 @@ where [refTable].[RosterRegionId] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                      name="ParameterMap">#{Package\Dim Locations\Data Flow Task\31193:invalid};</property>
+                      name="ParameterMap">#{Package\Dim Locations\Data Flow Task\25754:invalid};</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -3686,7 +3686,7 @@ where [refTable].[RosterRegionId] = ?</property>
                           refId="Package\Dim Locations\Data Flow Task\Lookup Region and Country Details.Inputs[Lookup Input].Columns[RosterRegionID]"
                           cachedDataType="i4"
                           cachedName="RosterRegionID"
-                          lineageId="Package\Dim Locations\Data Flow Task\31193:invalid">
+                          lineageId="Package\Dim Locations\Data Flow Task\25754:invalid">
                           <properties>
                             <property
                               dataType="System.String"
@@ -11225,7 +11225,7 @@ where DepartmentCode = ?</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="ETL Begin"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -12500,7 +12500,7 @@ where [refTable].[DepartmentCode] = ? and [refTable].[CountryId] = ?</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Load the DepartmentType"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -13653,7 +13653,7 @@ where [refTable].[DepartmentTypeName] = ?</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Update Last Modified Date"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -15404,7 +15404,7 @@ where ProjectID = ? and DepartmentID is not null</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="ETL Begin"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -16685,7 +16685,7 @@ on OPRJ.CountryCode = a.CountryCode</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Same project for multiple departments"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -18317,7 +18317,7 @@ where ProjectId = ?
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Update Load End Date"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -30605,7 +30605,7 @@ where RosterDistrictID = ?  and RosterSiteID = ? and Isdeleted = 1</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate dimRosteremployee"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -30621,7 +30621,7 @@ where RosterDistrictID = ?  and RosterSiteID = ? and Isdeleted = 1</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate Table DimSite"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -33057,7 +33057,7 @@ where RosterRegionId = ?</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Set India to Active"
-          DTS:ThreadHint="3">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -38603,11 +38603,11 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
         <NodeLayout
           Size="152,43"
           Id="Package\Data Flow Task"
-          TopLeft="5.50000000000023,2168.5" />
+          TopLeft="5.5,726.5" />
         <NodeLayout
           Size="161,43"
           Id="Package\Data Flow Task 1"
-          TopLeft="218,2168.5" />
+          TopLeft="218,726.5" />
         <NodeLayout
           Size="126.666666666667,42.6666666666667"
           Id="Package\Dim Country\ETL Begin"
@@ -38702,7 +38702,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
           PanelSize="215.333333333334,411.333333333334"
           Size="160,43"
           Id="Package\Dim Country"
-          TopLeft="742.5,5.5" />
+          TopLeft="744.5,5.49999999999977" />
         <NodeLayout
           Size="152,43"
           Id="Package\Dim Locations\Data Flow Task"
@@ -38778,9 +38778,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38814,9 +38812,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38850,9 +38846,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38874,9 +38868,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38898,9 +38890,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38922,9 +38912,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38946,9 +38934,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38970,9 +38956,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38994,9 +38978,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39030,9 +39012,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39066,9 +39046,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39090,9 +39068,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <ContainerLayout
@@ -39101,7 +39077,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
           PanelSize="488,1335"
           Size="172,43"
           Id="Package\Dim Locations"
-          TopLeft="384,267" />
+          TopLeft="455.5,211.5" />
         <NodeLayout
           Size="127,43"
           Id="Package\Dim Region\ETL Begin"
@@ -39196,7 +39172,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
           PanelSize="217,412"
           Size="159,43"
           Id="Package\Dim Region"
-          TopLeft="496.5,108.5" />
+          TopLeft="515,108.5" />
         <NodeLayout
           Size="263,43"
           Id="Package\DimDepartment\Check for active department to country"
@@ -39268,9 +39244,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39292,9 +39266,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39316,9 +39288,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39340,9 +39310,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39376,9 +39344,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39400,9 +39366,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39436,9 +39400,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39472,9 +39434,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39508,18 +39468,16 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="803,880"
-          Size="214,43"
+          Size="179,43"
           Id="Package\DimDepartment"
-          TopLeft="715.5,108.5" />
+          TopLeft="735,108.5" />
         <NodeLayout
           Size="197,43"
           Id="Package\DimProject\Check for Active projects"
@@ -39708,11 +39666,11 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
         </EdgeLayout>
         <ContainerLayout
           HeaderHeight="43"
-          IsExpanded="True"
+          IsExpanded="False"
           PanelSize="272,824"
-          Size="272,867"
+          Size="272,43"
           Id="Package\DimProject"
-          TopLeft="686.5,211.5" />
+          TopLeft="688.5,211.5" />
         <NodeLayout
           Size="203,43"
           Id="Package\DimSeasons\Check for deleted seasons"
@@ -39768,9 +39726,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39792,9 +39748,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39816,9 +39770,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39840,9 +39792,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39864,9 +39814,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39900,9 +39848,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39936,9 +39882,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -39960,18 +39904,16 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="254,928"
-          Size="254,43"
+          Size="164,43"
           Id="Package\DimSeasons"
-          TopLeft="316.5,427" />
+          TopLeft="459.5,314.5" />
         <NodeLayout
           Size="200.666666666667,42.6666666666667"
           Id="Package\DimSector\Check for deleted sectors"
@@ -40196,7 +40138,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
           PanelSize="380,718.666666666667"
           Size="153,43"
           Id="Package\DimSector"
-          TopLeft="365,570.5" />
+          TopLeft="465,417.5" />
         <NodeLayout
           Size="186.666666666667,42.6666666666667"
           Id="Package\DimSite\Check for deleted sites"
@@ -40591,7 +40533,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
           PanelSize="654.666666666667,1233.33333333334"
           Size="158,43"
           Id="Package\DimSite"
-          TopLeft="380.5,1397.5" />
+          TopLeft="462.5,623.5" />
         <NodeLayout
           Size="130.666666666667,42.6666666666667"
           Id="Package\Employees\Employees"
@@ -40722,7 +40664,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
           PanelSize="364,428"
           Size="181,43"
           Id="Package\Employees"
-          TopLeft="362,1081.5" />
+          TopLeft="451,520.5" />
         <NodeLayout
           Size="208,43"
           Id="Package\Sync web Locations\Check for inactive locations"
@@ -40873,7 +40815,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
           PanelSize="219,618"
           Size="219,43"
           Id="Package\Sync web Locations"
-          TopLeft="707,415.5" />
+          TopLeft="684,314.5" />
         <NodeLayout
           Size="188,42.6666666666667"
           Id="Package\Sync Web Portal sites\Check for inactive sites"
@@ -40940,29 +40882,41 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
           PanelSize="257.333333333334,308.666666666667"
           Size="203,43"
           Id="Package\Sync Web Portal sites"
-          TopLeft="358,1500.5" />
+          TopLeft="440,726.5" />
         <NodeLayout
           Size="168,43"
           Id="Package\Sync Web Seasons"
-          TopLeft="703.5,2168.5" />
+          TopLeft="703.5,726.5" />
         <NodeLayout
           Size="168,43"
           Id="Package\Sync Web Seasons 1"
-          TopLeft="932.5,2168.5" />
+          TopLeft="932.5,726.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="443.083333333333,310">
+          TopLeft="514.166666666667,254.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,117"
+              EndConnector="27.3333333333334,60.0000000000001"
               Start="0,0"
-              End="0,109.5">
+              End="27.3333333333334,52.5000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,109.5" />
+                    End="0,20.3317972350231" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.3317972350231"
+                    Point2="0,24.3317972350231"
+                    Point3="4,24.3317972350231" />
+                  <mssgle:LineSegment
+                    End="23.3333333333334,24.3317972350231" />
+                  <mssgle:CubicBezierSegment
+                    Point1="23.3333333333334,24.3317972350231"
+                    Point2="27.3333333333334,24.3317972350231"
+                    Point3="27.3333333333334,28.3317972350231" />
+                  <mssgle:LineSegment
+                    End="27.3333333333334,52.5000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -40973,30 +40927,30 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="576,151.5">
+          TopLeft="594.5,151.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-106,115.5"
+              EndConnector="-53,60"
               Start="0,0"
-              End="-106,108">
+              End="-53,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,53.75" />
+                    End="0,26" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,53.75"
-                    Point2="0,57.75"
-                    Point3="-4,57.75" />
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
                   <mssgle:LineSegment
-                    End="-102,57.75" />
+                    End="-49,30" />
                   <mssgle:CubicBezierSegment
-                    Point1="-102,57.75"
-                    Point2="-106,57.75"
-                    Point3="-106,61.75" />
+                    Point1="-49,30"
+                    Point2="-53,30"
+                    Point3="-53,34" />
                   <mssgle:LineSegment
-                    End="-106,108" />
+                    End="-53,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -41007,30 +40961,18 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="441.5,613.5">
+          TopLeft="541.5,460.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="11,468"
+              EndConnector="0,60"
               Start="0,0"
-              End="11,460.5">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,230" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,230"
-                    Point2="0,234"
-                    Point3="4,234" />
-                  <mssgle:LineSegment
-                    End="7,234" />
-                  <mssgle:CubicBezierSegment
-                    Point1="7,234"
-                    Point2="11,234"
-                    Point3="11,238" />
-                  <mssgle:LineSegment
-                    End="11,460.5" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -41041,18 +40983,18 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="442.5,470">
+          TopLeft="541.5,357.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,100.5"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,93">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,93" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -41063,30 +41005,30 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="497.333333333333,310">
+          TopLeft="568.833333333333,254.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="319.166666666667,105.5"
+              EndConnector="224.666666666667,60"
               Start="0,0"
-              End="319.166666666667,98">
+              End="224.666666666667,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,38.7834101382489" />
+                    End="0,20.331797235023" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,38.7834101382489"
-                    Point2="0,42.7834101382489"
-                    Point3="4,42.7834101382489" />
+                    Point1="0,20.331797235023"
+                    Point2="0,24.331797235023"
+                    Point3="4,24.331797235023" />
                   <mssgle:LineSegment
-                    End="315.166666666667,42.7834101382489" />
+                    End="220.666666666667,24.331797235023" />
                   <mssgle:CubicBezierSegment
-                    Point1="315.166666666667,42.7834101382489"
-                    Point2="319.166666666667,42.7834101382489"
-                    Point3="319.166666666667,46.7834101382489" />
+                    Point1="220.666666666667,24.331797235023"
+                    Point2="224.666666666667,24.331797235023"
+                    Point3="224.666666666667,28.331797235023" />
                   <mssgle:LineSegment
-                    End="319.166666666667,98" />
+                    End="224.666666666667,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -41097,7 +41039,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="459.5,1440.5">
+          TopLeft="541.5,666.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -41119,13 +41061,13 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="797.166666666667,48.5">
+          TopLeft="799.166666666667,48.4999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-221.166666666667,60"
+              EndConnector="-204.666666666667,60"
               Start="0,0"
-              End="-221.166666666667,52.5">
+              End="-204.666666666667,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -41136,13 +41078,13 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
                     Point2="0,24.3564356435643"
                     Point3="-4,24.3564356435643" />
                   <mssgle:LineSegment
-                    End="-217.166666666667,24.3564356435643" />
+                    End="-200.666666666667,24.3564356435643" />
                   <mssgle:CubicBezierSegment
-                    Point1="-217.166666666667,24.3564356435643"
-                    Point2="-221.166666666667,24.3564356435643"
-                    Point3="-221.166666666667,28.3564356435643" />
+                    Point1="-200.666666666667,24.3564356435643"
+                    Point2="-204.666666666667,24.3564356435643"
+                    Point3="-204.666666666667,28.3564356435643" />
                   <mssgle:LineSegment
-                    End="-221.166666666667,52.5" />
+                    End="-204.666666666667,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -41153,7 +41095,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="822.5,151.5">
+          TopLeft="824.5,151.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -41175,7 +41117,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 8]"
-          TopLeft="847.833333333333,48.5">
+          TopLeft="849.833333333333,48.4999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -41209,18 +41151,18 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 9]"
-          TopLeft="456,1124.5">
+          TopLeft="541.5,563.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,273"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,265.5">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,265.5" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -42256,9 +42198,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -43680,9 +43620,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -43716,9 +43654,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -43740,9 +43676,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -43764,9 +43698,7 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
