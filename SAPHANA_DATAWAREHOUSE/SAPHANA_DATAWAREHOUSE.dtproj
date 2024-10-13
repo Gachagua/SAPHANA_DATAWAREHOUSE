@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">UZITO-PC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="o2diepm8JA==" SSIS:IV="mKSfC7YDz2k=">mrXkbgpakRsgXj/OmsMz7VQ1FfiOEm8OrBu6caMy+fc5S64ylnuHSQxYw5RJHYsECCB/TdI/9QWHR6iiEOeKvBtgNWFznb0KMx0oFbsOs9N6gYr0wrerNaoFdndpfKpSa8/DE7B6Pxi+d+PEuxMilppCXh+aMvMFldH85vD7rEDIGMgTiN4MAA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="u6JCdQICQA==" SSIS:IV="JSAfKB3RhRc=">CNJ+yYjOwGr7ffNyb32N+E30MLDcX01Pe6nT3UADOaLo8b1t8goTwT2+KrTfwwLl32qm/Zjxm+pdcFbrXxhnTXO0gikDKLCYvsfJpGy70xHUp0yryDmkrjZKlxcRUVInXkENLysdjpgkEb169/hGhK8Tphqp0KGo3hV14EN5iJiyrUNehzgdZA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -62,6 +62,7 @@
           <SSIS:Package SSIS:Name="staging_Logistics_3_HANA.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="staging_logistics_4_HANA.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Purchasing_8_HANA.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Purchasing_9_HANA.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="SAP HANA 32.DWAREHOUSE.conmgr" />
@@ -1081,10 +1082,10 @@
                 <SSIS:Property SSIS:Name="Name">Purchasing_2_HANA</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">25</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">60</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E034AD8D-FF33-44DE-8F72-A593DC526DE3}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{D0D1E418-0038-417F-8E7E-66B603C0DC12}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1217,10 +1218,10 @@
                 <SSIS:Property SSIS:Name="Name">staging_dimensions_HANA</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">76</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">77</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{6518B660-714B-40D6-99F0-B9D831DFE7F7}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{9C170133-183D-47B5-83E9-6283E4288F73}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1404,10 +1405,10 @@
                 <SSIS:Property SSIS:Name="Name">staging_STAFF_EXP_HANA</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">12</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">16</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{CA3FFA55-6CFF-4B0C-A69E-1232C5129813}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{DA5FD606-B71E-4942-9EA9-ACF552B3E29D}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1459,6 +1460,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{53BC3775-3E6B-4A5E-BF59-8DAE3CDA5C61}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Purchasing_9_HANA.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{BE79CBEA-F233-4779-8D11-F174311E1C55}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Purchasing_9_HANA</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{CBC0D530-B324-4A8C-B281-81EDB3BFF293}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
